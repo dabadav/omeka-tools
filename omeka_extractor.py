@@ -1,37 +1,5 @@
 import os
 
-import requests
-from dotenv import load_dotenv
-
-# Load .env variables
-load_dotenv()
-
-# Load values from environment
-API_KEY = os.getenv("OMEKA_API_KEY")
-API_URL = os.getenv("OMEKA_API_URL")
-
-HEADERS = {}  # Omeka Classic doesn't use headers for auth
-
-
-def fetch_all_items():
-    # Build the request
-    endpoint = f"/items?key={API_KEY}&pretty_print"
-    response = requests.get(f"{API_URL}{endpoint}")
-
-    # Handle response
-    if response.status_code == 200:
-        data = response.json()
-        print(f"Retrieved {len(data)} items.")
-        return data
-
-    else:
-        raise Exception(
-            f"Failed to fetch data: {response.status_code} - {response.text}"
-        )
-
-
-import os
-
 import pandas as pd
 import requests
 from dotenv import load_dotenv
