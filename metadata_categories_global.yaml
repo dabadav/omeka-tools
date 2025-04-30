@@ -1,0 +1,90 @@
+Identification:
+  - FormerDB-ID
+  - FormerDB-Filename
+  - Filename
+
+Content Description:
+  - Translated Title (German)
+  - Translated Title (English)
+  - Translated Title (Dutch)
+  - Main Caption (English)
+  - Main Caption (German)
+  - Main Caption (Dutch)
+  - Additional Caption 1 (English)
+  - Additional Caption 1 (German)
+  - Additional Caption 1 (Dutch)
+  - Additional Caption 2 (English)
+  - Additional Caption 2 (German)
+  - Additional Caption 2 (Dutch)
+  - Translated Full Text Fragment (German)
+  - Translated Full Text Fragment (English)
+  - Translated Full Text Fragment (Dutch)
+  - Translated Text Snippet (German)
+  - Translated Text Snippet (English)
+  - Translated Text Snippet (Dutch)
+  - Full Text Fragment (Original Language)
+  - Historical Caption
+  - Transcription from depicted text
+  - Display Label (English)
+  - Display label (German)
+  - Display Label (Dutch)
+  - Source Reference
+  - Alternative Names
+
+Spatial Data:
+  - Viewpoint Latitude
+  - Viewpoint Longitude
+  - Viewpoint Elevation
+  - Viewpoint Altitude
+  - Origin Place Latitude
+  - Origin Place Longitude
+  - Origin Place Altitude
+  - Reference Place Latitude
+  - Reference Place Longitude
+  - Reference Place Altitude
+  - Reference Place Elevation
+  - Label Latitude
+  - Label Longitude
+  - Label Elevation Correction
+
+Temporal Data:
+  - Dates of Creation
+  - Dates of Reference
+  - Earliest Start of Reference Period
+  - Latest End of Reference Period
+  - Date of Birth
+  - Date of Death
+
+People:
+  - Metadata Author
+  - Interviewer
+  - Interviewee
+  - Producer
+  - First Name (of person)
+  - Surname (of person)
+  - Born Family Name
+  - Gender
+  - Place of Birth
+  - Place of Death
+  - Biographical Text (from source)
+  - Translated Biographical Text (English)
+  - Translated Biographical Text (German)
+  - Translated Biographical Text (Dutch)
+  - Referenced Groups of People
+
+Rights & Access:
+  - Made Available For Insertion
+  - Off-site use OK
+
+Media Properties:
+  - Original Format
+  - Materials
+  - Physical Dimensions
+
+Technical Metadata:
+  - View Pitch
+  - View Yaw
+  - View Roll
+  - Zoom  Level
+  - PositionScreen
+  - Horizon Height Estimate

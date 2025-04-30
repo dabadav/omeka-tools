@@ -1,0 +1,111 @@
+Identification:
+  - FormerDB-ID
+  - FormerDB-Filename
+  - Filename
+  - Identifier
+
+Content Description (English):
+  - Title
+  - Translated Title (English)
+  - Main Caption (English)
+  - Additional Caption 1 (English)
+  - Additional Caption 2 (English)
+  - Translated Full Text Fragment (English)
+  - Translated Text Snippet (English)
+  - Display Label (English)
+  - Translated Biographical Text (English)
+  - Description
+
+Content Description (German):
+  - Translated Title (German)
+  - Main Caption (German)
+  - Additional Caption 1 (German)
+  - Additional Caption 2 (German)
+  - Translated Full Text Fragment (German)
+  - Translated Text Snippet (German)
+  - Display label (German)
+  - Historical Caption
+  - Translated Biographical Text (German)
+
+Content Description (Dutch):
+  - Translated Title (Dutch)
+  - Main Caption (Dutch)
+  - Additional Caption 1 (Dutch)
+  - Additional Caption 2 (Dutch)
+  - Translated Full Text Fragment (Dutch)
+  - Translated Text Snippet (Dutch)
+  - Display Label (Dutch)
+  - Translated Biographical Text (Dutch)
+
+Content Description (Multilingual/Neutral):
+  - Full Text Fragment (Original Language)
+  - Transcription from depicted text
+  - Source Reference
+  - Alternative Names
+  - Source
+  - Medium
+
+Spatial Data:
+  - Viewpoint Latitude
+  - Viewpoint Longitude
+  - Viewpoint Elevation
+  - Viewpoint Altitude
+  - Origin Place Latitude
+  - Origin Place Longitude
+  - Origin Place Altitude
+  - Reference Place Latitude
+  - Reference Place Longitude
+  - Reference Place Altitude
+  - Reference Place Elevation
+  - Label Latitude
+  - Label Longitude
+  - Label Elevation Correction
+
+Temporal Data:
+  - Dates of Creation
+  - Dates of Reference
+  - Earliest Start of Reference Period
+  - Latest End of Reference Period
+  - Date of Birth
+  - Date of Death
+  - Date Available
+  - Date Valid
+
+People:
+  - Metadata Author
+  - Interviewer
+  - Interviewee
+  - Producer
+  - First Name (of person)
+  - Surname (of person)
+  - Born Family Name
+  - Gender
+  - Place of Birth
+  - Place of Death
+  - Biographical Text (from source)
+  - Referenced Groups of People
+  - Creator
+  - Contributor
+  - Rights Holder
+
+Rights & Access:
+  - Made Available For Insertion
+  - Off-site use OK
+  - Access Rights
+  - License
+  - Rights
+
+Media Properties:
+  - Original Format
+  - Materials
+  - Physical Dimensions
+  - Type
+  - Language
+
+Technical Metadata:
+  - View Pitch
+  - View Yaw
+  - View Roll
+  - Zoom  Level
+  - PositionScreen
+  - Horizon Height Estimate
