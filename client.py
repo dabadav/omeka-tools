@@ -44,6 +44,9 @@ class OmekaClient:
     def get_collection(self, collection_id):
         return self._get(f"collections/{collection_id}")
 
+    def get_exhibit(self, exhibit_id):
+        return self._get(f"exhibits/{exhibit_id}")
+
     def get_user(self, user_id):
         return self._get(f"users/{user_id}")
 
@@ -59,8 +62,11 @@ class OmekaClient:
     def get_element(self, element_id):
         return self._get(f"elements/{element_id}")
 
-    def get_exhibit_pages(self, item_id):
-        return self._get("exhibit_pages", params={"item": item_id})
+    def get_exhibit_pages(self, exhibit_id):
+        return self._get("exhibit_pages", params={"exhibit": exhibit_id})
+
+    def get_exhibit_pages_by_item(self, item_id):
+            return self._get("exhibit_pages", params={"item": item_id})
 
     # -------- Universal URL resolver -------- #
     def resolve_url(self, full_url):

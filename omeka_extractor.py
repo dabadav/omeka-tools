@@ -73,3 +73,8 @@ def extract_metadata(filtered_json):
         sep="__",
     )
     return df_elements[element_columns]
+
+
+def get_default_item(exhibit_pages):
+    # Specific function to get the first item id of an exhibition
+    return exhibit_pages[1]['page_blocks'][0]['attachments'][0]['item']['id']
