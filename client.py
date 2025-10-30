@@ -38,9 +38,6 @@ class OmekaClient:
     def get_item(self, item_id):
         return self._get(f"items/{item_id}")
 
-    def get_item_type(self, type_id):
-        return self._get(f"item_types/{type_id}")
-
     def get_collection(self, collection_id):
         return self._get(f"collections/{collection_id}")
 
