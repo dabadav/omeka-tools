@@ -18,7 +18,7 @@ Built around the [Bergen-Belsen collection](https://bb-g.futurememoryfoundation.
 | Normalize fuzzy dates → RFC3339 | `standarize.dates` | ✅ |
 | Embed items + index into Qdrant (semantic + geo + time filter) | notebook `B.Omeka2Qdrant` | ✅ (notebook only) |
 | Knowledge graph linking / prep | notebooks `3`, `A`, `C` | ✅ (notebook only) |
-| Swap Omeka instance / credentials | `.env` (`OMEKA_API_URL`, `OMEKA_API_KEY`) | ✅ (one blocker: `get_public_url` hardcoded — see Customization) |
+| Swap Omeka instance / credentials | `.env` (`OMEKA_API_URL`, `OMEKA_API_KEY`, `OMEKA_PUBLIC_URL`) | ✅ |
 | Write back to Omeka (POST/PUT/DELETE) | — | ❌ not in scope |
 
 ---
@@ -26,18 +26,26 @@ Built around the [Bergen-Belsen collection](https://bb-g.futurememoryfoundation.
 ## Install
 
 ```bash
-poetry install
-# or
-pip install requests pandas python-dotenv pyyaml dateparser qdrant-client sentence-transformers
-```
+poetry install                       # core deps only
+poetry install --with notebooks      # + jupyter, qdrant-client, sentence-transformers, ...
 
-> Note: `pyproject.toml` currently does **not** declare runtime deps explicitly. Install manually until that is fixed.
+# or
+pip install -e .                     # core deps
+pip install -e ".[notebooks]"        # + notebook extras
+```
 
 Create `.env` at repo root:
 
 ```dotenv
 OMEKA_API_URL=https://bb-g.futurememoryfoundation.org/api
 OMEKA_API_KEY=<your-key>
+
+# Optional. Defaults to OMEKA_API_URL with trailing /api stripped.
+OMEKA_PUBLIC_URL=https://bb-g.futurememoryfoundation.org
+
+# Only for notebook B (Qdrant)
+QDRANT_URL=https://<your-cluster>.cloud.qdrant.io
+QDRANT_API_KEY=<your-qdrant-key>
 ```
 
 ---
@@ -52,17 +60,15 @@ omeka-tools/
 │   ├── utils.py               # file URLs, public URL builder, yaml helpers
 │   └── standarize/
 │       ├── dates.py           # find_date_patterns, normalize_date, extract_and_standardize_dates
-│       └── text.py            # (empty)
+│       └── text.py            # (empty, reserved)
 ├── notebooks/                 # end-to-end pipeline (see below)
 │   └── data/                  # extracted CSVs / JSON / HTML reports
 ├── metadata_categories.yaml         # per-language field grouping
 ├── metadata_categories_global.yaml  # cross-language field grouping (11 categories)
-├── client.py                  # ⚠ legacy duplicate of src/omeka_tools/client.py
-├── omeka_extractor.py         # ⚠ legacy duplicate of src/omeka_tools/omeka_extractor.py
 └── pyproject.toml
 ```
 
-Root-level `client.py` and `omeka_extractor.py` are kept for notebook back-compat (`sys.path.append("..")`). Prefer `from omeka_tools import OmekaClient` in new code.
+All imports use the package: `from omeka_tools import OmekaClient`, `from omeka_tools import omeka_extractor as oe`.
 
 ---
 
@@ -173,7 +179,7 @@ Numbered notebooks run sequentially; lettered notebooks are independent stages.
 | B | `B.Omeka2Qdrant` | parquet | Qdrant collection `omeka_items` | Embed title+text with `all-MiniLM-L6-v2` (384-d), upsert with payload, datetime index → semantic + date-filter search |
 | C | `C.Text2KG_Preparation` | times JSON | `omeka_bb_dataset.html` / `.pdf`, `omeka_times_fixed.json` | Date normalization audit, sortable HTML + PDF report |
 
-> ⚠ Notebook B has Qdrant URL + API key **hardcoded**. Move to `.env` before sharing.
+Notebook B reads `QDRANT_URL` and `QDRANT_API_KEY` from `.env`.
 
 ---
 
@@ -181,46 +187,30 @@ Numbered notebooks run sequentially; lettered notebooks are independent stages.
 
 ### Point at a different Omeka instance
 
-Two-step swap.
-
-**1. Edit `.env`** — the client reads URL + key from env at construction.
+Edit `.env`:
 
 ```dotenv
 OMEKA_API_URL=https://my-other-omeka.org/api
 OMEKA_API_KEY=<your-key>
+OMEKA_PUBLIC_URL=https://my-other-omeka.org   # optional; auto-derived from API_URL if omitted
 ```
 
 Or pass directly, bypassing env:
 
 ```python
+from omeka_tools import OmekaClient
+from omeka_tools.utils import get_public_url
+
 client = OmekaClient(
     base_url="https://my-other-omeka.org/api",
     api_key="<your-key>",
 )
+url = get_public_url(item_id=839, host="https://my-other-omeka.org")
 ```
 
-`OmekaClient.__init__` (src/omeka_tools/client.py:13) prefers constructor args over env, so both work.
+`OmekaClient.__init__` (`src/omeka_tools/client.py:13`) prefers constructor args over env. `get_public_url` (`src/omeka_tools/utils.py`) resolves the host in order: arg → `OMEKA_PUBLIC_URL` → derived from `OMEKA_API_URL` (strip `/api`).
 
-**2. Override `get_public_url`** — it is **hardcoded** to the Bergen-Belsen host:
-
-```python
-# src/omeka_tools/utils.py:82
-def get_public_url(item_id):
-    return f"https://bb-g.futurememoryfoundation.org/items/show/{item_id}"
-```
-
-Quick fix at call site:
-
-```python
-def get_public_url(item_id, host="https://my-other-omeka.org"):
-    return f"{host}/items/show/{item_id}"
-```
-
-Better fix: read `OMEKA_PUBLIC_URL` from env and default to deriving it from `OMEKA_API_URL` (strip trailing `/api`). Not yet in repo — small patch if you want it.
-
-**3. Element / element_set IDs may differ across Omeka instances.** The Bergen-Belsen-specific element IDs (e.g. `123 = Translated Title (German)`) are encoded only in `metadata_categories*.yaml` *by name*, not by ID — so as long as the target instance uses the same element names, the YAML categorization works unchanged. If element names differ, edit the YAMLs.
-
-**4. Hardcoded Qdrant config** in `notebooks/B.Omeka2Qdrant.ipynb` is independent — does not affect Omeka swap, but move it to `.env` before publishing.
+**Element / element_set IDs may differ across Omeka instances.** The Bergen-Belsen-specific element IDs (e.g. `123 = Translated Title (German)`) are encoded only in `metadata_categories*.yaml` *by name*, not by ID — so as long as the target instance uses the same element names, the YAML categorization works unchanged. If element names differ, edit the YAMLs.
 
 ### Add a new endpoint
 
@@ -239,10 +229,6 @@ Edit `metadata_categories_global.yaml` (or the per-language file). The category 
 
 ## Known gaps
 
-- `pyproject.toml` declares no runtime dependencies — install manually.
-- Root `client.py` and `omeka_extractor.py` duplicate the package; root `client.py:79` has a dead duplicate `return`.
-- `standarize/text.py` is empty.
-- `utils.get_public_url` is hardcoded to the Bergen-Belsen host — blocks clean instance swap (workaround in Customization).
-- Qdrant credentials hardcoded in notebook B.
+- `standarize/text.py` is empty (reserved for future text normalization).
 - No tests.
 - Read-only; no POST/PUT/DELETE (out of scope).
