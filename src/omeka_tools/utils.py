@@ -1,3 +1,4 @@
+import os
 from enum import Enum
 
 import pandas as pd
@@ -79,8 +80,25 @@ def extract_metadata(filtered_json):
     return df_elements[element_columns]
 
 
-def get_public_url(item_id):
-    return f"https://bb-g.futurememoryfoundation.org/items/show/{item_id}"
+def get_public_url(item_id, host=None):
+    """Build the public URL for an Omeka item.
+
+    Host resolution order:
+      1. `host` arg
+      2. `OMEKA_PUBLIC_URL` env var
+      3. `OMEKA_API_URL` env var with trailing `/api` stripped
+    """
+    if host is None:
+        host = os.getenv("OMEKA_PUBLIC_URL")
+    if host is None:
+        api_url = os.getenv("OMEKA_API_URL", "")
+        host = api_url.rstrip("/").removesuffix("/api")
+    if not host:
+        raise RuntimeError(
+            "Cannot resolve Omeka public host. Set OMEKA_PUBLIC_URL or OMEKA_API_URL, "
+            "or pass host= explicitly."
+        )
+    return f"{host.rstrip('/')}/items/show/{item_id}"
 
 
 def load_yaml(yaml_path):
