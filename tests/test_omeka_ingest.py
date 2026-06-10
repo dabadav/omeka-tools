@@ -90,6 +90,18 @@ def test_iter_items_paginates_then_stops():
     assert len(got) == 3
 
 
+def test_iter_items_passes_collection_filter():
+    seen = []
+
+    class FakeClient:
+        def _get(self, endpoint, params=None):
+            seen.append(params)
+            return [ITEM] if params["page"] == 1 else []
+
+    list(iter_items(FakeClient(), collection=4))
+    assert seen[0]["collection"] == 4
+
+
 def test_omeka_to_documents_end_to_end():
     class FakeClient:
         def _get(self, endpoint, params=None):

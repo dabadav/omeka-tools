@@ -119,11 +119,16 @@ def format_item(
     }
 
 
-def iter_items(client, *, per_page: int = 50, max_items: Optional[int] = None) -> Iterator[dict]:
-    """Paginate the Omeka /items endpoint."""
+def iter_items(
+    client, *, per_page: int = 50, max_items: Optional[int] = None, collection: Optional[int] = None,
+) -> Iterator[dict]:
+    """Paginate the Omeka /items endpoint, optionally filtered to one collection."""
     page, seen = 1, 0
     while True:
-        items = client._get("items", params={"page": page, "per_page": per_page})
+        params = {"page": page, "per_page": per_page}
+        if collection is not None:
+            params["collection"] = collection
+        items = client._get("items", params=params)
         if not items:
             return
         for it in items:
@@ -139,12 +144,16 @@ def omeka_to_documents(
     *,
     per_page: int = 50,
     max_items: Optional[int] = None,
+    collection: Optional[int] = None,
     files_resolver: Optional[Callable[[int], list[str]]] = None,
     public_url_resolver: Optional[Callable[[int], str]] = None,
     **fmt_kwargs,
 ) -> Iterator[dict]:
-    """Fetch + format every item into contract dicts ready for ContentIngestor."""
-    for item in iter_items(client, per_page=per_page, max_items=max_items):
+    """Fetch + format every item into contract dicts ready for ContentIngestor.
+
+    Pass collection=<id> to ingest a single Omeka collection.
+    """
+    for item in iter_items(client, per_page=per_page, max_items=max_items, collection=collection):
         item_id = item["id"]
         files_url = files_resolver(item_id) if files_resolver else None
         public_url = public_url_resolver(item_id) if public_url_resolver else item.get("url")
