@@ -16,17 +16,21 @@ from typing import Callable, Iterable, Iterator, Optional
 
 from .tag_taxonomy import tag_payload
 
-# Westerbork element-name defaults (override if the instance differs).
-TITLE_FIELDS = ["Title", "Translated Titles (multiple languages)", "DisplayLabel"]
+# Westerbork element-name defaults (verified against live items, e.g. id 2512).
+# Override per instance via omeka_to_documents(..., text_fields=[...]).
+TITLE_FIELDS = ["Translated Title (English)", "Title", "DisplayLabel"]
 TEXT_FIELDS = [
+    "Translated Full Text Fragment (English)",
     "Full Text Fragment (Original Language)",
-    "Translated Full Text Fragments and Snippets (multiple languages)",
-    "Captions (various languages)",
+    "Main Caption (English)",            # object/image items keep their text here
+    "Additional Caption 1 (English)",
+    "Additional Caption 2 (English)",
+    "Display Label (English)",
     "Historical Caption",
     "Transcription from depicted text",
     "Description",
 ]
-CREATOR_FIELDS = ["Creator"]
+CREATOR_FIELDS = ["Creator", "Metadata Author"]
 
 _TYPE_MAP = {
     "still image": "image_item",

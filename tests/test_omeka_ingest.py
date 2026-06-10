@@ -56,6 +56,29 @@ def test_format_item_resolves_and_filters_tags():
     assert not any("ARLocation" in l for l in labels)  # app marker dropped
 
 
+def test_main_caption_used_as_text_for_object_items():
+    # mirrors live item 2512: text lives in "Main Caption (English)", title in "Translated Title (English)"
+    item = {
+        "id": 2512,
+        "item_type": {"name": "Physical Object"},
+        "tags": [{"name": "Forced Labor"}, {"name": "Object"}, {"name": "descriptive (tone)"}],
+        "element_texts": [
+            {"element_set": {"name": "Dublin Core"}, "element": {"name": "Title"}, "text": "Ring"},
+            {"element_set": {"name": "Dublin Core"}, "element": {"name": "Translated Title (English)"},
+             "text": "Ring made of airplane glass"},
+            {"element_set": {"name": "Item Type Metadata"}, "element": {"name": "Main Caption (English)"},
+             "text": "This ring is made of glass from an airplane cockpit."},
+        ],
+    }
+    doc = format_item(item)
+    assert doc["title"] == "Ring made of airplane glass"          # English translation preferred
+    assert doc["text"] == "This ring is made of glass from an airplane cockpit."
+    labels = [f"{t['facet']}:{t['label']}" for t in doc["tags"]]
+    assert "theme_what:Forced Labor" in labels
+    assert "medium_what:object" in labels                      # canonical taxonomy casing
+    assert "language_how.tone_of_text:descriptive" in labels
+
+
 def test_iter_items_paginates_then_stops():
     class FakeClient:
         def __init__(self):
