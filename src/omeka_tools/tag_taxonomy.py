@@ -71,9 +71,22 @@ with _TAGS_JSON.open(encoding="utf-8") as _f:
 # --- pre-rules applied before exact lookup ----------------------------------
 
 _TONE_SUFFIX = re.compile(r"\s*\((?:visual\s+)?tone\)\s*$", re.IGNORECASE)
-_DROP_PREFIXES = ("arlocation",)          # legacy app-location tags (being replaced by AiARLocation)
-_LOCATION_PREFIX = "aiarlocation"          # new app-location grouping -> kept as facet 'location'
+_LOCATION_PREFIXES = ("aiarlocation", "arlocation")   # app-location grouping -> facet 'location'
 _DROP_EXACT = {"start", "start page", "kwbvr"}
+
+# migrate legacy ARLocation* codes -> new AiARLocation* codes (normalized lower -> canonical)
+_AR_MIGRATION = {
+    "arlocationcommandershouse": "AiARLocationCommandersHouse",
+    "arlocationentrance": "AiARLocationEntrance",
+    "arlocationorphanage": "AiARLocationBarrack35",
+    "arlocationstoragebarrack": "AiARLocationBarrack75",
+    "arlocationpunishmentbarracks": "AiARLocationBarracks65-67",
+    "arlocationguardtowers": "AiARLocationGuardTowers",
+    "arlocationlivingbarracks": "AiARLocationBarrack56",
+    "arlocationregistrationandtheatre": "AiARLocationBarrack9",
+    "arlocationkitchen": "AiARLocationBarracks28-30",
+    "arlocationhospital": "AiARLocationBarrack3",
+}
 
 # transit / origin prefixes -> (facet, canonical prefix)
 _PREFIX_RULES = [
@@ -97,12 +110,12 @@ def resolve_tag(name: str, *, keep_freeform: bool = True) -> Optional[ResolvedTa
     raw = name.strip()
     low = _norm(raw)
 
-    # new app-location grouping (AiARLocation*) -> keep as a 'location' facet (filterable)
-    if low.startswith(_LOCATION_PREFIX):
-        return ResolvedTag("location", raw)
+    # app-location grouping (AR/AiAR) -> 'location' facet (filterable); migrate known old codes
+    if any(low.startswith(p) for p in _LOCATION_PREFIXES):
+        return ResolvedTag("location", _AR_MIGRATION.get(low, raw))
 
-    # legacy AR markers / nav -> drop
-    if low in _DROP_EXACT or any(low.startswith(p) for p in _DROP_PREFIXES):
+    # nav / junk markers -> drop
+    if low in _DROP_EXACT:
         return None
 
     # tone tags: "somber (tone)" / "dark (visual tone)"

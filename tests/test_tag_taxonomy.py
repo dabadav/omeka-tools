@@ -58,8 +58,16 @@ def test_aiarlocation_kept_as_location_facet():
     assert rt.facet == "location" and rt.label == "AiARLocationBarracks65-67"
 
 
+def test_arlocation_migrated_to_aiar_location():
+    assert resolve_tag("ARLocationHospital").facet == "location"
+    assert resolve_tag("ARLocationHospital").label == "AiARLocationBarrack3"      # old -> new
+    assert resolve_tag("ARLocationStorageBarrack").label == "AiARLocationBarrack75"
+    assert resolve_tag("ARLocationBarrack75").facet == "location"                 # unknown AR kept as-is
+
+
 def test_app_markers_dropped():
-    assert resolve_tag("ARLocationBarrack75") is None          # legacy AR* still dropped
+    assert resolve_tag("start page") is None
+    assert resolve_tag("KWBVR") is None
     assert resolve_tag("start page") is None
     assert resolve_tag("KWBVR") is None
 
@@ -70,9 +78,9 @@ def test_freeform_kept_or_dropped():
 
 
 def test_tag_payload_shape_and_dedup():
-    names = ["Forced Labor", "Forced Labor", "ARLocationBarrack75", "photograph"]
+    names = ["Forced Labor", "Forced Labor", "start page", "photograph"]
     tags, labels = tag_payload(names)
     assert "theme_what:Forced Labor" in labels
     assert "medium_what:Photograph" in labels   # canonical taxonomy casing
-    assert len(tags) == len(labels) == 2          # dedup + AR dropped
+    assert len(tags) == len(labels) == 2          # dedup + nav marker dropped
     assert all(set(t) == {"facet", "label", "weight"} for t in tags)
