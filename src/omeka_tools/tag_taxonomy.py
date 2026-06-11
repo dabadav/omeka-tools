@@ -71,7 +71,8 @@ with _TAGS_JSON.open(encoding="utf-8") as _f:
 # --- pre-rules applied before exact lookup ----------------------------------
 
 _TONE_SUFFIX = re.compile(r"\s*\((?:visual\s+)?tone\)\s*$", re.IGNORECASE)
-_DROP_PREFIXES = ("arlocation", "aiarlocation")
+_DROP_PREFIXES = ("arlocation",)          # legacy app-location tags (being replaced by AiARLocation)
+_LOCATION_PREFIX = "aiarlocation"          # new app-location grouping -> kept as facet 'location'
 _DROP_EXACT = {"start", "start page", "kwbvr"}
 
 # transit / origin prefixes -> (facet, canonical prefix)
@@ -96,7 +97,11 @@ def resolve_tag(name: str, *, keep_freeform: bool = True) -> Optional[ResolvedTa
     raw = name.strip()
     low = _norm(raw)
 
-    # app / AR navigation markers -> drop
+    # new app-location grouping (AiARLocation*) -> keep as a 'location' facet (filterable)
+    if low.startswith(_LOCATION_PREFIX):
+        return ResolvedTag("location", raw)
+
+    # legacy AR markers / nav -> drop
     if low in _DROP_EXACT or any(low.startswith(p) for p in _DROP_PREFIXES):
         return None
 

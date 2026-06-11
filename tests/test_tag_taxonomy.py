@@ -53,8 +53,13 @@ def test_barrack_numbers():
     assert resolve_tag("barracks 65-67").label == "Barrack 65-67"
 
 
+def test_aiarlocation_kept_as_location_facet():
+    rt = resolve_tag("AiARLocationBarracks65-67")
+    assert rt.facet == "location" and rt.label == "AiARLocationBarracks65-67"
+
+
 def test_app_markers_dropped():
-    assert resolve_tag("ARLocationBarrack75") is None
+    assert resolve_tag("ARLocationBarrack75") is None          # legacy AR* still dropped
     assert resolve_tag("start page") is None
     assert resolve_tag("KWBVR") is None
 
