@@ -53,7 +53,7 @@ def test_format_item_resolves_and_filters_tags():
     assert "theme_what:work detail" in labels
     assert "language_how.tone_of_text:Somber" in labels
     assert "place_where.transit_destinations:Deported to: Auschwitz-Birkenau" in labels
-    assert not any("ARLocation" in l for l in labels)  # app marker dropped
+    assert "location:ARLocationBarrack75" in labels    # AR location kept as 'location' facet
 
 
 def test_main_caption_used_as_text_for_object_items():
