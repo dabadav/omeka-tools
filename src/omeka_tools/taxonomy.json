@@ -1,0 +1,308 @@
+{
+  "title": "Tagging Omeka Content for the Recommender System",
+  "note": "Final tags adapted from VHA tags. Theme section has main tags + sub-tags; other dimensions have sub-tags only.",
+  "dimensions": {
+    "theme_what": {
+      "label": "Theme (What)",
+      "description": "Main theme tags with their sub-tags describing what is in the item",
+      "structure": "main_tag -> sub_tags",
+      "categories": {
+        "Adaptation and Survival": [
+          "adaptation", "camp adaptation methods", "hiding adaptation methods",
+          "survival explanations", "decisions", "survival", "uprising", "partisans",
+          "black market", "hiding place", "occupation", "trial"
+        ],
+        "Aid and Protection": [
+          "aid giving", "false document provision", "shelter provision",
+          "sustenance provision", "migration assistance", "protection",
+          "protection papers", "Palestine certificates", "exchange", "money provision"
+        ],
+        "Awareness and Reflection": [
+          "Holocaust awareness", "reflections", "post-World War II reflections",
+          "bystander", "witness", "civilian", "illusion", "propaganda"
+        ],
+        "Brutality and Killings": [
+          "killings", "executions", "mass executions", "brutal treatment", "shootings",
+          "violence", "violent attacks", "humiliation", "beatings", "murder",
+          "Kristallnacht", "abuse", "death marches"
+        ],
+        "Camp Procedures": [
+          "camp procedures", "camp intake procedures", "selections",
+          "prisoner identification", "prisoner identification numbers", "prisoner insignia",
+          "prisoner of war camps (generic)", "forced tattoos", "quarantine", "delousing",
+          "dispossession", "punishment", "self-administration", "registration"
+        ],
+        "Cultural and Creative Activities": [
+          "creative works", "original works", "crafts", "fine arts", "performing arts",
+          "musical recitals", "music", "literary recitals", "cultural activities",
+          "camp/ghetto/hiding-related cultural activities", "education",
+          "camp/refugee camp education", "vocational training", "sports", "gymnastics",
+          "football", "handball", "boxing", "cinema", "cabaret", "theatre"
+        ],
+        "Daily Life": [
+          "Roll-call", "farming", "classes", "learning", "teaching", "acts of resistance",
+          "holidays", "property", "education", "school", "birthdays", "working"
+        ],
+        "Deaths and Mortality": [
+          "deaths", "post-liberation deaths", "suicides", "corpses", "corpse disposal",
+          "burial sites", "mass graves", "crematorium", "corpse detail", "extermination"
+        ],
+        "Deportation and Transport": [
+          "deportation experiences", "transfer experiences", "transfer conditions",
+          "transfers", "means of transport", "trains", "freight trains", "rescue transports",
+          "Kasztner transport", "exchange transport", "deportation", "transport", "bus"
+        ],
+        "Discrimination": [
+          "anti-Jewish measures", "discriminatory measures", "antisemitism",
+          "Nazi propaganda", "arrests", "anti-Jewish arrests", "roundups",
+          "anti-Jewish roundups", "personal prejudice", "anti-Romani", "anti-Romani arrests",
+          "homophobia", "racism", "xenophobia", "sexism"
+        ],
+        "DP Camps": [
+          "displaced persons camp administration/experiences", "refugee camp experiences",
+          "central committee", "Jewish DP camp", "Polish DP camp", "Kazet theatre"
+        ],
+        "Family": [
+          "family life", "family histories", "family homes", "wartime family interactions",
+          "ghetto family interactions", "marriages", "survivor marriages", "children",
+          "siblings", "parents", "orphans", "pregnancy", "foster family", "giving birth"
+        ],
+        "Flight and Migration": [
+          "flight", "flight preparations", "flight to the UK", "migration decisions",
+          "migration experiences", "migration policies", "migration preparations",
+          "Kindertransport", "refugee", "hiding", "aliyah", "emigration to Palestine",
+          "escape", "Palestine training program"
+        ],
+        "Food and Hunger": [
+          "food", "camp food", "ghetto food", "food acquisition", "hunger",
+          "food rationing", "kitchen"
+        ],
+        "Forced Labor": [
+          "forced labor activities/conditions", "forced labor battalion experiences",
+          "agricultural/armament/construction/factory/medical/textile/translation forced labor",
+          "personal property sorting forced labor", "work detail", "workshops"
+        ],
+        "Guarding": [
+          "guards", "SS", "watch tower", "dog", "barbed wire fence", "camp commander",
+          "Netherlands Marechaussee", "NSB", "kapo", "prisoner police", "perpetrator",
+          "collaboration", "corruption", "Dutch military police", "Jewish Order Service (OD)"
+        ],
+        "Health and Diseases": [
+          "health", "physical health", "diseases", "epidemics", "typhus", "medical care",
+          "hospitals", "camp hospital", "medical staff", "dentist", "doctor", "nurse",
+          "illness", "pediatrician", "medicine", "maternity ward"
+        ],
+        "Liberation": [
+          "liberation", "camp liberation", "ghetto liberation", "liberation participation",
+          "forced march liberation", "transfer liberation", "liberator", "British Army",
+          "Canadian troops", "Soviet troops", "Jewish brigade"
+        ],
+        "Living Conditions": [
+          "housing conditions", "camp/hiding-related housing conditions", "living conditions",
+          "camp/ghetto/hiding/refugee camp living conditions", "environmental conditions",
+          "bunk beds", "weather", "seasons", "over-crowdedness"
+        ],
+        "Jewish Life": [
+          "Jewish life", "Jewish culture", "Yiddish culture", "Yiddish language", "Hebrew",
+          "Shabbat", "Jewish holidays"
+        ],
+        "Political Activities": [
+          "Communism", "Zionism", "resistance activities", "resistance fighters",
+          "Jewish Council"
+        ],
+        "Religion": [
+          "prayers", "Jewish prayers", "religious observances", "religious objects",
+          "religious holidays", "rabbi", "priest", "Catholicism", "Christianity", "Judaism",
+          "synagogue", "church"
+        ],
+        "Sanitary Conditions": [
+          "Delousing", "showers", "camp sanitary conditions", "lice"
+        ],
+        "Social Relations": [
+          "social relations", "camp/hiding-related social relations", "friends", "solidarity",
+          "positive encounters", "friendship", "helping"
+        ],
+        "Thoughts and Feelings": [
+          "psychological reactions", "camp/liberation-related psychological reactions",
+          "emotions", "feelings", "thoughts", "mental health", "physical sensations",
+          "suffering", "trauma", "joy", "happiness", "relief", "love", "anger", "guilt"
+        ]
+      }
+    },
+    "medium_what": {
+      "label": "Medium (What)",
+      "description": "Sub-tags describing the medium of the item in Omeka",
+      "tags": [
+        "Photograph", "artwork", "object", "physical document", "film", "audio testimony",
+        "written testimony", "text", "biographical text"
+      ],
+      "clarifications": {
+        "Photograph": "incl. stills from a film",
+        "artwork": "incl. drawing, painting, sculpture",
+        "physical document": "i.e. letter, newspaper cutout",
+        "written testimony": "1st person account i.e. diary entry, memoire",
+        "text": "written by 3rd party i.e. historians, staff / researchers",
+        "biographical text": "text centering a person"
+      }
+    },
+    "place_where": {
+      "label": "Place (Where)",
+      "description": "Tags for areas that an item relates to",
+      "subdimensions": {
+        "camp_areas": {
+          "label": "Camp areas",
+          "tags": [
+            "Barracks", "buildings", "camp entrance", "infirmary", "internment camp",
+            "labour camp", "Neutrals' camp", "Prisoners of War camp", "Special camp",
+            "tent camp", "Star camp", "Men's camp", "Women's camp", "Hungarians' camp",
+            "exchange camp", "punishment barracks", "kitchens", "Schattenberg camp farm",
+            "topography", "water treatment plant", "aircraft scrapyard", "dentist",
+            "laboratory", "living barracks", "theatre and registration", "orphanage",
+            "commander's house", "train tracks", "train platform", "narrow-gauge train",
+            "greenhouse", "garden", "maternity ward", "camp main road", "landscape",
+            "railway line", "watch tower", "Heidelager", "camp boundary", "playground",
+            "warehouse", "visiting barrack", "boiler room"
+          ]
+        },
+        "barrack_number": {
+          "label": "Barrack number",
+          "format": "Barrack x, Barrack x-x",
+          "example": "barrack 35; barracks 65-67"
+        },
+        "transit_destinations": {
+          "label": "Transit destinations (arrived from, deported to)",
+          "format": ["Arrived from: x", "Deported to: x"],
+          "note": "Tag name of camp where person was staying (and deported to)",
+          "example": ["Arrived from: Camp Vught", "Deported to: Auschwitz-Birkenau"]
+        }
+      }
+    },
+    "person_who": {
+      "label": "Person (Who)",
+      "description": "Tags for biographical information of the author/creator/described person",
+      "subdimensions": {
+        "reason_for_imprisonment": {
+          "label": "Reason for imprisonment",
+          "tags": [
+            "Victim", "prisoner", "Disabled and sick people", "homosexuals",
+            "Italian military internees", "Jehova's witnesses", "Jewish",
+            "Polish Home Army", "political persecutee", "political prisoner",
+            "prisoners of war", "PoW", "Roma and Sinti", "socially persecuted people",
+            "'S-inmates'", "internees", "Moluccan", "Indo-Dutch"
+          ]
+        },
+        "age_group": {
+          "label": "Age group",
+          "tags": [
+            "child", "adult", "elderly", "age 16-18", "age 18-24", "age 25-34",
+            "age 35-44", "age 45-54", "age 55-64", "age 65-74", "age 75-84", "age 85+"
+          ],
+          "definitions": {
+            "child": ">18 (under 18)",
+            "adult": "18-64",
+            "elderly": "65-85+"
+          }
+        },
+        "gender_and_age": {
+          "label": "Gender and age",
+          "tags": ["Male", "female", "non-binary"]
+        },
+        "mothertongue": {
+          "label": "Mothertongue",
+          "example_tags": ["Dutch", "German", "Polish", "Hungarian", "Yiddish"],
+          "note": "Example values; open list"
+        },
+        "province_netherlands": {
+          "label": "Province (Netherlands)",
+          "tags": [
+            "Noord-Holland", "Zuid-Holland", "Utrecht", "Gelderland", "Overijssel",
+            "Flevoland", "Drenthe", "Friesland", "Groningen", "Limburg", "Noord-Brabant",
+            "Zeeland"
+          ]
+        },
+        "city_village_country": {
+          "label": "City/village & country",
+          "format": ["Born in: x", "Lived in: x", "From: x"],
+          "note": "Tag name of city/village and country of origin and/or where they lived before deportation",
+          "example": ["Born in: Haren", "Lived in: Amsterdam", "From: Germany"]
+        }
+      }
+    },
+    "time_when": {
+      "label": "Time (When)",
+      "description": "Tags for time period of camp (additional to years of reference in Omeka)",
+      "subdimensions": {
+        "time_period": {
+          "label": "Time period",
+          "tags": [
+            "Refugee camp", "Transit camp", "Internment Camp", "Schattenberg period",
+            "contemporary time", "memorial museum"
+          ]
+        }
+      }
+    },
+    "theme_how": {
+      "label": "Theme tags (How)",
+      "description": "Research-related tags used for AI engine Storylines & Aliisa's research. Focus on content of material but also how it is produced. More than one tag may be used.",
+      "subdimensions": {
+        "ai_engine_themes_westerbork": {
+          "label": "AI Engine themes Westerbork",
+          "source": "From Bas",
+          "tags": [
+            "\"Sports\" & \"Leisure\"", "Resistance", "Jewish Culture & Religion",
+            "Sinti & Roma", "Perpetrators"
+          ]
+        },
+        "type_of_stores": {
+          "label": "Type of stores",
+          "source": "From Bas",
+          "tags": [
+            "Personal stories", "Historical overview", "Anecdotes",
+            "Centered around an artifact"
+          ]
+        },
+        "content_category": {
+          "label": "Content category",
+          "note": "No sub-tags; tag with the category name itself",
+          "categories": {
+            "Daily Life & Camp Experience": {
+              "description": "Describing experiences of (mainly) prisoners/survivors, 3rd person account, less personal. Items that describe routines, labour, social dynamics, survival strategies.",
+              "example": "The narrow-gauge railway of Camp Westerbork, constructed in 1943 to transport metal and other raw materials to the camp. The narrow-gauge railway was built by a group of young men who worked outside the camp. This group was named after their headman, Bauer, an Austrian-Jewish refugee. In March 1944, after an escape attempt by one of the members, almost the entire Bauer group was transported to Auschwitz-Birkenau."
+            },
+            "Historical Context & Overview": {
+              "description": "Items that describe events shaping the history, use of the site, power structures. Fact-based texts (written by memorial / historians), describing objectively e.g. historical overview, organisation of the site, changes of functions based on historical events.",
+              "example": "In 1939, an 'infirmary barracks' was set up in the Central Refugee Camp Westerbork. In the beginning, the barracks were provisionally furnished. In July 1942, camp Westerbork was taken over by the German occupying forces. A reorganization and expansion of the camp hospital was necessary...."
+            },
+            "Reflections & Encounters": {
+              "description": "Items that relate to biographies, relationships, witness testimonies, philosophical reflections, quotes. Personal, humanised, text close to the witness / survivor (1st person account, or describing a personal story).",
+              "example": "Iwan went to school there and made many friends. One of them was Reinder. Years later, Reinder still remembered well when Iwan, wearing the star for the first time, came to visit him and said: \"Reinder, look what I have to wear now... My guardian doesn't allow me to play with you anymore.\""
+            }
+          }
+        }
+      }
+    },
+    "language_how": {
+      "label": "Language tags (How)",
+      "description": "Each item text will be given 5 keywords based on a sentiment analysis. All found keywords listed below.",
+      "subdimensions": {
+        "tone_of_text": {
+          "label": "Tone of Text",
+          "tags": [
+            "Somber", "tragic", "reflective", "tragic irony", "historical", "poignant",
+            "mournful", "serious", "compassionate", "documentary", "humane", "objective",
+            "understated", "descriptive", "nuanced", "analytical", "bittersweet",
+            "anecdotal", "humanizing", "informational", "critical", "hopeful",
+            "unsettling", "subtle irony"
+          ],
+          "suffix": "(tone)",
+          "clarifications": {
+            "poignant": "emotionally moving, personal, touching",
+            "humane": "empathy, moral care in inhumane times",
+            "anecdotal": "storytelling",
+            "humanizing": "personal, real, relatable"
+          }
+        }
+      }
+    }
+  }
+}

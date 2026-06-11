@@ -1,0 +1,743 @@
+id,item_type,title,chars,words
+839,Contextual Item,Hut 211,124,21
+840,Contextual Item,Huts 9 and 10,1124,189
+841,Contextual Item,The Men's Camp,477,72
+842,Contextual Item,The Star Camp,497,83
+843,Contextual Item, The Gate to the Concentration Camp Prisoners' Compound,448,75
+844,Contextual Item,The Hungarians' Camp,518,84
+845,Contextual Item,The Star Camp's Roll-Call Square,611,99
+846,Contextual Item,The Camp's Main Street,525,91
+847,Contextual Item,The Camp's Perimeter,534,89
+848,Contextual Item,Workshops,600,95
+849,Contextual Item,Delousing Baths,625,100
+850,Contextual Item,The Women's Camp,629,101
+851,Contextual Item,Friedhof und Nachkriegsgestaltung,678,110
+852,Contextual Item,Prisoners of the Polish Home Army (Armia Krajowa),673,107
+853,Contextual Item,Captured Soldiers from the Polish Home Army,598,95
+854,Landscape Item,LND Landscape Overview,39,4
+855,Contextual Item,Polish Cross Monument,292,52
+856,Contextual Item,Italian Military Internees,747,116
+858,Landscape Item,Jewish Monument,631,101
+859,Contextual Item,"CTX: The Concentration Camp, Introduction",1277,198
+860,Landscape Item,VP M.B. 87 Nebenlager,11,1
+861,Contextual Item,"The POW camp, Introduction",993,175
+862,Landscape Item,LND Kitchen (#SK1061),556,90
+863,Landscape Item,LND Camp's Main Entrance,542,86
+864,Contextual Item,Camp overview by prisoners,485,76
+865,Landscape Item,LND House of Silence,41,7
+866,Landscape Item,LND Latrine Huts,418,72
+867,Landscape Item,Field Hospital for Soviet POWs,625,103
+868,Contextual Item,Neutrals' Camp,257,41
+869,Landscape Item,Obelisk and Wall Monument,564,89
+870,Landscape Item,Personal commemoration stones,378,61
+871,Contextual Item,Special Camp for Jews from Poland,364,60
+872,Contextual Item,Soviet Prisoners of War,799,132
+873,Contextual Item,Perpetrators,1474,220
+874,Contextual Item,Death and dying,761,128
+875,Contextual Item,Gate to the Prisoner Compound,806,123
+876,Contextual Item,"Watchtower, Separation strip",564,92
+1136,Still Image,Lager részlet Bergen-Belsen 1945,89,12
+1137,Still Image,A Bergen-Belsen-i tábor távlati képe,206,30
+1138,Still Image,Skizze Albalalager (Sternlager) Bergen-Belsen Februar 1945,164,25
+1140,Still Image,28 April 1945,119,20
+1141,Still Image,4/28/1945,209,35
+1142,Still Image,Hiver 1944. Modes d'Enfants à Bergen Belsen,72,8
+1143,Still Image,Ételhordók a kapuhoz?!!,84,13
+1144,Still Image,"Blick aus dem Sternlager auf die Lagerstraße, 1944",68,12
+1145,Still Image,4/28/1945,128,20
+1146,Still Image,"Appellplatz des Sternlagers, 1944",57,8
+1147,Still Image,4/28/1945,180,30
+1148,Still Image,"Anbau an eine Küchenbaracke, 1944",54,8
+1149,Still Image,"Blick zwischen zwei Baracken, 1944",49,7
+1150,Still Image,Egy kis tábori élet,96,13
+1151,Still Image,WC-sétány,94,14
+1152,Still Image,Bergen-Belsen Lager I,88,12
+1153,Still Image,LATRINA ÓH!,68,10
+1154,Still Image,4/28/1945,170,28
+1155,Still Image,"Lauskontrolle, IV/45",69,11
+1156,Still Image,"Werkstätten, 1944",34,4
+1157,Still Image,"Altersheim, 1944",53,8
+1158,Still Image,Brot ÓH!,33,4
+1159,Still Image,Bergen Belsen 10.C.,43,5
+1160,Still Image,Bergen Belsen 1944.VII.9. - VIII.18. - XII.4.,69,9
+1161,Still Image,"Schuhberg, 1944",34,6
+1162,Still Image,9/17/1944,81,14
+1163,Still Image,4/25/1945,13,3
+1164,Still Image,4/17/1945,13,3
+1165,Still Image,4/17/1945,81,11
+1166,Still Image,28 April 1945,192,31
+1167,Still Image,<unspecified title>,62,9
+1168,Still Image,5/21/1945,11,3
+1169,Still Image,4/16/1945,152,25
+1170,Still Image,15 April 1945,146,25
+1171,Still Image,1-4 May 1945,143,24
+1172,Still Image,1-4 May 1945,116,19
+1173,Still Image,<unspecified title>,65,10
+1174,Still Image,17/18 April 1945,134,23
+1175,Still Image,4/25/1945,145,24
+1176,Still Image,4/25/1945,145,24
+1177,Still Image,Még nem vagyunk 70-en!,105,15
+1178,Still Image,Pile of shoes and rubbish tip,72,12
+1179,Still Image,4/21/1945,103,14
+1180,Still Image,"Hut 211, 20 April 1945",109,17
+1181,Still Image,4/28/1945,122,18
+1182,Still Image,1. Transportliste des abgehenden Transportes vom 5. Dezember 1944,107,20
+1183,Still Image,(Missing Title; NARA),21,3
+1184,Still Image,(Missing Title; NARA),21,3
+1185,Still Image,Gate to the Belsen camp,189,32
+1186,Still Image,(Missing Title; NARA),21,3
+1187,Still Image,(Missing Title; NARA),21,3
+1188,Still Image,(Missing Title; NARA),21,3
+1189,Still Image,(Missing Title; NARA),21,3
+1190,Still Image,(Missing Title; NARA),21,3
+1191,Still Image,(Missing Title; NARA),21,3
+1192,Still Image,(Missing Title; NARA),21,3
+1193,Still Image,(Missing Title; NARA),21,3
+1194,Still Image,(Missing Title; NARA),21,3
+1195,Still Image,(Missing Title; NARA),21,3
+1196,Still Image,(Missing Title; NARA),21,3
+1197,Still Image,(Missing Title; NARA),21,3
+1198,Still Image,(Missing Title; NARA),21,3
+1201,Still Image,(Missing Title; NARA),21,3
+1202,Still Image,(Missing Title; NARA),21,3
+1203,Still Image,(Missing Title; NARA),21,3
+1204,Still Image,(Missing Title; NARA),21,3
+1205,Still Image,(Missing Title; NARA),21,3
+1206,Still Image,(Missing Title; NARA),21,3
+1207,Still Image,(Missing Title; NARA),21,3
+1208,Still Image,Loading platform,143,20
+1209,Still Image,(Missing Title; NARA),21,3
+1210,Still Image,(Missing Title; NARA),21,3
+1211,Still Image,(Missing Title; NARA),21,3
+1212,Still Image,(Missing Title; NARA),21,3
+1213,Still Image,(Missing Title; NARA),21,3
+1214,Still Image,"Interior of a barrack, 28 April 1945",36,7
+1215,Still Image,(Missing Title; NARA),21,3
+1216,Still Image,(Missing Title; NARA),21,3
+1217,Still Image,(Missing Title; NARA),21,3
+1218,Still Image,(Missing Title; NARA),21,3
+1219,Still Image,(Missing Title; NARA),21,3
+1220,Still Image,(Missing Title; NARA),21,3
+1221,Still Image,(Missing Title; NARA),21,3
+1222,Still Image,(Missing Title; NARA),21,3
+1223,Still Image,(Missing Title; NARA),21,3
+1224,Still Image,(Missing Title; NARA),21,3
+1225,Still Image,(Missing Title; NARA),21,3
+1226,Still Image,(Missing Title; NARA),21,3
+1227,Still Image,(Missing Title; NARA),21,3
+1228,Still Image,(Missing Title; NARA),21,3
+1229,Still Image,(Missing Title; NARA),21,3
+1230,Still Image,Interior of a kitchen (after liberation),40,6
+1231,Still Image,(Missing Title; NARA),21,3
+1232,Still Image,(Missing Title; NARA),21,3
+1233,Still Image,(Missing Title; NARA),21,3
+1234,Still Image,(Missing Title; NARA),21,3
+1235,Still Image,(Missing Title; NARA),21,3
+1236,Still Image,(Missing Title; NARA),21,3
+1237,Still Image,(Missing Title; NARA),21,3
+1238,Still Image,(Missing Title; NARA),21,3
+1239,Still Image,(Missing Title; NARA),21,3
+1240,Still Image,(Missing Title; NARA),21,3
+1241,Still Image,(Missing Title; NARA),21,3
+1242,Still Image,(Missing Title; NARA),21,3
+1243,Still Image,(Missing Title; NARA),21,3
+1244,Still Image,(Missing Title; NARA),21,3
+1245,Still Image,Die Einweihung des Hochkreuzes,305,55
+1246,Still Image,Die Einweihung des steinernen jüdischen Mahnmals,661,106
+1247,Still Image,Der Bau des internationalen Mahnmals,42,5
+1248,Physical Object,Gestickte Katze,319,55
+1249,Physical Object,Fotoapparat Leica 2 von Wieslaw Chrzanowski,336,55
+1250,Still Image,Gestrickte Handschuhe,162,27
+1251,Still Image,"""Bergen-Belsen""",226,37
+1252,Still Image,Baracke 198,203,35
+1253,Still Image,<unknown>,13,2
+1254,Still Image,<unknown>,13,2
+1255,Still Image,<unknown>,13,2
+1256,Still Image,<unknown>,13,2
+1257,Still Image,<unknown>,13,2
+1258,Still Image,<unknown>,13,2
+1259,Still Image,<unknown>,13,2
+1260,Still Image,<unknown>,13,2
+1261,Still Image,<unknown>,13,2
+1262,Still Image,<unknown>,13,2
+1263,Still Image,<unknown>,13,2
+1264,Still Image,<unknown>,13,2
+1265,Still Image,<unknown>,13,2
+1266,Still Image,Geburtsurkunde für Gabriella Büchler,909,160
+1267,Physical Object,Häftlingsnummer der Polin Maria Gniatczyk,50,7
+1268,Text Item,"Erweiterung des Männerlagers, Januar 1945",803,145
+1269,Text Item,"Arbeiten im Schuhzelt, 1944",1137,215
+1270,Text Item,3. Mai 1944,400,70
+1271,Text Item,9/11/1944,493,88
+1272,Text Item,10. Februar 1945,364,66
+1273,Text Item,9. Februar 1945,356,70
+1274,Text Item,9/11/1944,390,65
+1275,Text Item,"Unterbringung im Ungarnlager, Dezember 1944",798,136
+1276,Text Item,"Ankunft im Häftlingslager, Juni 1944",939,159
+1277,Text Item,"Die erste Zeit im Häftlingslager, März 1944",597,112
+1278,Text Item,"Situation im Männerlager, Februar 1945",657,119
+1279,Text Item,"Bedingungen in der Latrinenbaracke, Februar 1945",689,129
+1280,Text Item,27 Augustus 1944,2833,554
+1281,Text Item,30-8-1944,1261,226
+1282,Text Item,Februar 1945,1499,274
+1283,Text Item,Am Rande von Belsen. Erinnerungen an das Kriegsende,117,16
+1284,Text Item,4/22/1944,2287,400
+1285,Text Item,5. Dezember 1944,386,60
+1286,Text Item,5. Dezember 1944,982,168
+1287,Text Item,Die Latrinen,610,113
+1288,Text Item,Die Bestrafung von Brotdiebstahl,1237,216
+1289,Text Item,Der Tagesablauf im polnischen Sonderlager,800,146
+1290,Text Item,Die Lebensmittelrationen,847,149
+1291,Text Item,Essensrationen,964,174
+1292,Text Item,Umzug im Februar 1945,1729,314
+1293,Text Item,Beschreibung des Männerlagers,807,145
+1294,Text Item,Transporte aus anderen Lagern,810,127
+1295,Text Item,Situation im Frauenlager,969,166
+1296,Text Item,Katastrophale Lebensbedingungen,862,136
+1297,Text Item,Arbeit im Krematorium,929,170
+1298,Text Item,Massengräber,491,87
+1299,Text Item,Das Leichenkommando,1096,200
+1300,Text Item,Auswahl für einen Austausch,1547,276
+1301,Text Item,Brood als kampvaluta,783,142
+1302,Text Item,"Situation im Sternlager, März 1945",1402,257
+1303,Oral History,"Arbeiten in Küche II, 1944",387,68
+1304,Oral History,"Sanitäre Situation in der Baracke, 1944",780,135
+1305,Oral History,Beschreibung der Aufnahme von Baracke 198 ,30,6
+1306,Oral History,Die Unterbringung der weiblichen polnischen Kriegsgefangenen,629,114
+1307,Oral History,Hilfspakete vom Roten Kreuz,588,92
+1308,Oral History,Einteilung zu den Arbeitskommandos,978,175
+1309,Oral History,Die Häftlingsnummer von Maria Gniatczyk,908,158
+1310,Text Item,Läuse als Krankheitsüberträger,770,131
+1311,Oral History,Arbeitskommandos innerhalb des Lagers,2052,378
+1312,Text Item,Mensch bleiben im Lager,619,107
+1313,Oral History,Veränderungen durch den neuen Lagerkommandanten,1281,223
+1323,Still Image,"21 April, 1945",158,27
+1324,Still Image,17 April 1945,157,28
+1325,Still Image,21 April 1945,171,28
+1326,Still Image,21 April 1945,94,15
+1327,Still Image,22 April 1945,188,33
+1328,Still Image,22 April 1945,264,48
+1329,Still Image,Late April 1945,162,26
+1330,Still Image,"""Dusting""",286,48
+1331,Still Image,28 April 1945,49,8
+1332,Text Item,"[Late April 1945, Lipstick]",641,115
+1333,Still Image,(Hohne test item) BU 6591,0,0
+1334,Still Image,(test item Hohne 2),18,3
+1336,Still Image,Aerial view of Bergen-Belsen,87,14
+1338,Still Image,"Vogelvlucht teekening  van Westerbork, Augustus 1944",787,123
+1376,Contextual Item,Daily Life,1718,228
+1377,Contextual Item,"Food, Kitchens",1092,178
+1378,Contextual Item,Liberation and its aftermath,1006,159
+1379,Contextual Item,Hygiene,398,69
+1380,Contextual Item,Roll call,1167,190
+1438,Text Item,Arrival at the Women's camp,2283,412
+1439,Text Item,Meeting Anne Frank again,1776,321
+1440,Text Item,Children and adults in the camp,434,73
+1441,Still Image,Title page of János Reisz's diary,150,24
+1442,Still Image,"Pop ""Mies""",260,47
+1443,Text Item,The German language,437,69
+1444,Text Item,Moving again in the camp,753,141
+1445,Text Item,Arrival in Bergen-Belsen,1303,225
+1446,Text Item,Calendar sheet 1945,649,111
+1447,Still Image,Exchange certificate for Luise Weinberg-Halberstadt and Werner Weinberg,239,34
+1448,Still Image,Status report for Bergen-Belsen concentration camp (male prisoners) 31 March 1945,359,55
+1449,Still Image,Status report for Bergen-Belsen concentration camp (female prisoners) 15 March 1945,122,16
+1450,Still Image,Excerpt from the transport list for the train from Westerbork to Bergen-Belsen on 19 May 1944,369,58
+1451,Still Image,Transport list issued on 6 September 1944 for a transport of “unknown children” from Westerbork to Bergen-Belsen,391,61
+1452,Text Item,Neuordnung der Lagerverwaltung,693,119
+1453,Still Image,,19,2
+1454,Still Image,,19,2
+1457,Still Image,Poem written by Naomi Tal in October 1944 as a birthday present to her father Alexander,388,76
+1458,Text Item,Surrender of the camp,1235,239
+1459,Text Item,Frail inmates mistrust the new troops,336,59
+1460,Still Image,The burning of the last prisoner hut,148,24
+1461,Still Image,The first Jewish monument,704,112
+1464,Still Image,Carriage,111,15
+1465,Still Image,PLACEHOLDER IMAGE,127,16
+1478,Text Item,Roll call in the Men's Camp,1103,201
+1480,Still Image,"« Corvée des cadavres Belsen-Bergen, avril 45 »",41,5
+1481,Still Image,Burning of the last hut,56,11
+1482,Still Image,"Konzentr. Lager Bergen-Belsen, Zustand Jan. 1944",78,8
+1488,Contextual Item,Different sections: the Exchange Camp,961,157
+1490,Contextual Item,Different sections: the Men's and Women's Camps,703,111
+1491,Contextual Item,Labour in the camp,649,117
+1492,Contextual Item,Children,1742,305
+1494,Still Image,official birth certificate for Gabriella Büchler,280,40
+1503,Text Item,Transport of the children,2312,431
+1504,Text Item,Ein Paar Handschuhe,805,151
+1507,Still Image,Babykleidung,261,46
+1508,Still Image,Becher eines Häftlings,298,51
+1516,Moving Image,item video prueba,0,0
+1517,Physical Object,Kintsugi blue cup,53,8
+1518,Text Item,item text item prueba,41,7
+1519,Sound,Sound item prueba,0,0
+1535,Moving Image,"Kitchen fragment, Susanna Christensen",166,25
+1537,Sound,Lebensbedingungen,20,2
+1541,Biographical Text,Irene Butter,1659,268
+1542,Contextual Item,Prisoners from the Netherlands,3086,478
+1543,Text Item,Läuse,540,101
+1544,Still Image,Group of children in front of a hut,339,53
+1545,Text Item,Arrival of new prisoners,505,85
+1546,Still Image,Entry for Rut Tal in the camp administration's death ledger,148,25
+1547,Still Image,"Simon Maandag inside the liberated concentration camp at Bergen-Belsen, 20 April 1945",459,78
+1548,Still Image,"Children liberated from an orphans’ hut, 20 April 1945",54,9
+1549,Text Item,Meeting surviving children,640,118
+1550,Still Image,Notification of transfer,209,28
+1551,Still Image,Document confirming Paraguayan citizenship,814,128
+1552,Biographical Text,Carla Dotsch,909,147
+1553,Contextual Item,Diaries in the Bergen-Belsen concentration camp,1070,177
+1554,Text Item,Text Length Test Item,4666,706
+1555,Still Image,Item prueba imagen panoramica,0,0
+1556,Text Item,29. September 44,63,8
+1557,Still Image,Der jüdische Friedhof in Tröbitz,30,5
+1558,Contextual Item,The Evacuation of the Exchange Camp,893,142
+1559,Text Item,Während des Räumungstransports,929,155
+1560,Text Item,Im Außenlager Unterlüß,593,115
+1561,Text Item,Religiosität im Austauschlager,1467,256
+1562,Still Image,Angekommene Transporte,360,61
+1563,Still Image,The Birnbaum family at the Westerbork transit camp,417,72
+1577,Still Image,Armbinde und Tasche von Hilde Grünbaum,380,66
+1578,Still Image,Bibel und Predigtskizze,422,74
+1579,Contextual Item,Playing and school,729,119
+1580,Contextual Item,Austausch,1303,195
+1581,Contextual Item,Transports from the Exchange Camp,1655,266
+1582,Contextual Item,Transports from the Men's and Women's Camps,457,69
+1583,Text Item,Report from the Belsen trial,1111,191
+1584,Still Image,"For example, Jan Telling",371,58
+1585,Still Image,"For example, Meta and Joseph Heymann",600,96
+1586,Still Image,"For example, Jeanette Havas van Weezel and her children",474,80
+1587,Physical Object,Aimé Blanc's prisoner tag,148,25
+1588,Still Image,Wanda Kopéc's collection of personal photographs,718,118
+1589,Contextual Item,The Prisoners' Options,979,158
+1590,Biographical Text,Josef Weiss,2213,371
+1591,Still Image,First page of Peter Sussmann's diary,262,43
+1592,Landscape Item,Latrines,32,3
+1593,Still Image,Blick vom Wachturm,262,41
+1594,Still Image,"Giuseppe Cigognetti, 2007",102,17
+1595,Biographical Text,Angelo Gatto,1503,257
+1596,Text Item,Die Situation der Italienischen Militärinternierten,654,112
+1597,Still Image,Die Einrichtung des Austauschlagers,500,73
+1598,Still Image,Blick in das Sternlager,40,7
+1599,Still Image,"Das Brot, 1944",30,4
+1601,Still Image,Ebédosztás,79,10
+1602,Contextual Item,Pläne von Häftlingen,647,104
+1603,Text Item,Kampf gegen Läuse,999,184
+1604,Still Image,Reggeli imádkozás a 41/b barakkban,85,11
+1605,Contextual Item,Religious life,792,129
+1607,Still Image,Betten in der Baracke,38,6
+1609,Still Image,Barak belsö,73,10
+1610,Contextual Item,Die Unterbringung,765,134
+1611,Text Item,Das Arbeitskommando der Weberei,753,123
+1612,Still Image,Létszámellenörzés a Bergen-Belseni táborban,89,11
+1613,Still Image,Temetés a magyar 'Sondern-Lagerban'. A gyászolók a kapuig követhettik a halottas kocsit,156,23
+1614,Still Image,Hullaszállitó autó,60,7
+1615,Text Item,"Tagebuch József Lukács, Einträge vom 8. bis 21. April 1945",1180,206
+1616,Still Image,Tagebucheintrag von Renata Laqueur vom 4. Mai 1944,1289,239
+1617,Text Item,The liberation,541,109
+1618,Still Image,"Čin-Čin fairy-tale book belonging to Pavel Kučera , 1940s",127,21
+1619,Text Item,I had a book of fairy tales,541,97
+1620,Still Image,"Certificate for Ariella Majer, December 1944",295,46
+1621,Text Item,My little doll,487,93
+1622,Still Image,Letter of gratitude,210,32
+1623,Text Item,We're free,372,71
+1624,Text Item,A mother's death,1340,245
+1625,Contextual Item,Death in the camp,969,160
+1626,Text Item,From Westerbork to Bergen-Belsen,917,162
+1627,Contextual Item,Children in the women's camp,574,93
+1628,Contextual Item,"For example, the diamond workers' children",631,105
+1629,Contextual Item,The 'unknown children',654,96
+1630,Contextual Item,The moment of liberation,687,111
+1631,Biographical Text,Gershon Willinger,437,75
+1632,Landscape Item,LND Delousing (1),15,2
+1633,Landscape Item,LND Delousing (2),15,2
+1634,Landscape Item,LND Women's camp,624,100
+1635,Landscape Item,LND Men's camp,473,71
+1636,Landscape Item,LND Main street,640,115
+1637,Landscape Item,LND Vegetable cellar,16,2
+1638,Physical Object,Spielzeughund,95,17
+1639,Contextual Item,Transports to and from the exchange camp,900,147
+1640,Contextual Item,Transports to and from the men's and women's camps,1363,218
+1641,Biographical Text,Hetty Verolme,482,79
+1642,Oral History,Visiting Bergen-Belsen today,944,175
+1643,Oral History,Das Grab meines Vaters,738,148
+1644,Still Image,Commemoration stone for Anne and Margot Frank,76,12
+1691,Text Item,Food,4,1
+1692,Text Item,The charnel house,0,0
+1694,Text Item,New arrivals in the women's camp,1023,183
+1696,Still Image,Ebédosztás a häftlingek táborban,98,13
+1698,Landscape Item,LND Watchtower (#T1),42,5
+1709,Landscape Item,LND Watchtower (#T20),10,1
+1715,Background Panel,Black Background,0,0
+1740,Exhibit Metadata,Demo exhibit (titles),19,3
+1756,Viewpoint,"VP demo, MB89",0,0
+1757,Viewpoint,"VP demo, Roundhouse1",0,0
+1758,Viewpoint,VP Roundhouse 2,0,0
+1759,Landscape Item,LND Watchtower (#T10),10,1
+1760,Landscape Item,LND Watchtower (#T2),10,1
+1761,Viewpoint,VP (unused),0,0
+1762,Viewpoint,VP (unused),0,0
+1763,Viewpoint,VP (unused),0,0
+1764,Viewpoint,VP (unused),0,0
+1765,Viewpoint,VP (unused),0,0
+1766,Viewpoint,VP (unused),0,0
+1770,Biographical Text,Wiesław Chrzanowski,1069,180
+1778,Landscape Item,LND Gate to Prisoner Compound,418,71
+1779,Landscape Item,LND Workshops,9,1
+1780,Landscape Item,"LND Potatoes and turnips, storage clamps",36,5
+1781,Landscape Item,Tent (women's) camp,9,2
+1785,Still Image,Impressions from the camp,177,25
+1793,Text Item,"27. August 1944, II",1917,370
+1795,Physical Object,Pop 'Mies',260,47
+1798,Still Image,Impressions from the camp,100,13
+1800,Contextual Item,the diamond workers' children,650,107
+1801,Landscape Item,Garage,6,1
+1802,Landscape Item,"Potatoes and turnips, storage clamps",36,5
+1803,Biographical Text,Biographic prove,0,0
+1804,Viewpoint,VPTest1,0,0
+1805,Viewpoint,VPTest2,0,0
+1806,Viewpoint,VPTest3,0,0
+1807,Viewpoint,VPTest4,0,0
+1808,Viewpoint,VPTestPrincipialMetadata,0,0
+1809,Viewpoint,VPTestPrincipal2Metadata,0,0
+1810,Landscape Item,LND The Roundhouse,14,2
+1811,Landscape Item,LND Officers accomodations,23,2
+1812,Landscape Item,LND Wehrmacht Lazarett (hospital),42,5
+1813,Landscape Item,"LND Main Entrance (North, of Garrison)",13,2
+1814,Landscape Item,LND Train Loading Platform,22,3
+1815,Landscape Item,LND GB 06 (POW Headquarters),25,4
+1816,Still Image,Children on swings after liberation,157,25
+1817,Still Image,Inmates preparing to leave Hohne barracks,185,29
+1818,Still Image,Patients in beds at parade ground,196,33
+1819,Still Image,Ward at Hohne Barracks,223,35
+1820,Still Image,Cabin (dummy),26,5
+1821,Still Image,Roundhouse main hall,35,7
+1822,Still Image,View of the Roundhouse,22,4
+1823,Landscape Item,LND Concentration camp Bergen-Belsen,32,3
+1824,Exhibit Metadata,The Roundhouse (titles),14,2
+1825,Exhibit Metadata,The North entrance (titles),14,3
+1826,Exhibit Metadata,"UNUSED, free",18,3
+1827,Exhibit Metadata,The Hospital (titles),12,2
+1828,Exhibit Metadata,POW Headquarters (titles),25,4
+1829,Exhibit Metadata,Cinema (titles),10,2
+1830,Viewpoint,VPTest5,0,0
+1831,Viewpoint,VPTest6,0,0
+1832,Still Image,"Kommandantur des Stalag XI C (311) Bergen-Belsen, ca. 1942",59,9
+1833,Still Image,"This was Breakfast on the Second Day, 16/17 April 1945",217,36
+1834,Biographical Text,William Ernest Roach,824,143
+1835,Text Item,"Auszug aus einem Brief von William E. Roach an seine Mutter, 24. April 1945",70,14
+1836,Text Item,"Aus dem Tagebuch von Leopold Claessens, 16. April 1945",445,85
+1839,Still Image,"Aufnahme aus dem befreiten Nebenlager, 16. April 1945",304,45
+1840,Biographical Text,Otto Rosenberg,629,100
+1841,Text Item,"Auszug aus der Autobiografie von Otto Rosenberg, Berlin 1998",622,103
+1842,Text Item,"Aus dem Erinnerungsbericht von Osiride Brovedani, Triest 1971",662,117
+1843,Physical Object,"Tagebuch von Leopold Claessens, Beginn des Eintrags vom 10. April 1945",181,29
+1844,Still Image,"Zeichnung von Léon Delarbre, April 1945",326,56
+1845,Still Image,"Kommandantur des Stalag XI C (311) Bergen-Belsen, ca. 1942",59,9
+1846,Still Image,Ehrentafel für die an Fleckfieber gestorbenen Soldaten der Wachmannschaft des Kriegsgefangenenlagers,196,34
+1848,Biographical Text,Osiride Brovedani,293,48
+1849,Physical Object,"Auszug aus dem Notizheft von Rafael Olewski, 25. April 1945",193,31
+1851,Still Image,"Einweihung des Offiziersheimes auf dem Truppenübungsplatz Bergen, 26. April 1937",399,67
+1852,Still Image,"Ansicht des Offiziersheims im Truppenlager Bergen-Hohne, 1930er Jahre",189,31
+1853,Still Image,"Betten des Nothospitals im großen Saal des ehemaligen Offizierheims, Frühjahr 1945",227,39
+1854,Still Image,"Das Nothospital im Offiziersheim, Frühjahr 1945",0,0
+1855,Still Image,Ausweis des britischen Medizinstudenten Gordon Walker für Bergen-Belsen,421,76
+1856,Contextual Item,Das Nothospital im Offiziersheim,1098,164
+1857,Still Image,Adressangaben in der Kaserne,333,52
+1858,Still Image,"Verzeichnis der weinkontrollpflichtigen Betriebe, 1. Dezember 1940",258,44
+1859,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen W. Damaschke, 21. Juli 1941",891,155
+1860,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen W. Damaschke, 21. Juli 1941",1154,200
+1861,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen W. Damaschke, 17. Juli 1941",882,153
+1862,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen W. Damaschke, 29. Juli 1941",1098,200
+1863,Physical Object,"Kinokarte für den Film „Ein ganzer Kerl"", 24. Januar 1941 ",80,14
+1864,Physical Object,"Kinokarte für einen Verwundeten, 17. August 1942",246,42
+1865,Physical Object,"Eintrittskarte Kino, 25. Juni 1942",150,24
+1866,Physical Object,"Eintrittskarte Kino, 5. Februar 1941",223,37
+1867,Physical Object,"Kinokarte, 8. Juni 1941",176,29
+1868,Physical Object,"Kinokarte, 4. September 1941 ",125,20
+1869,Physical Object,"Veranstaltungsplakat Truppenlichtspiele, März 1943",113,17
+1870,Text Item,The situation in the Roundhouse,770,141
+1871,Still Image,"Plan der Belegung im Roundhouse, 18. Mai 1945",419,73
+1872,Still Image,"Postkarte mit Innenansicht der Kommandanturkantine, 1930er Jahre",204,29
+1873,Physical Object,"Adressangaben in der Kaserne, 1942",114,18
+1874,Still Image,"Foto von Wehrmachtangehörigen, Anfang der 1940er Jahre",169,26
+1875,Still Image,"Blick in das befreite Nebenlager, 18. April 1945",173,31
+1876,Still Image,"Repatriation of survivors, 25 April 1945",352,57
+1877,Biographical Text,TEST item,0,0
+1878,Biographical Text,Léon Delarbre,13,2
+1879,Biographical Text,Leopold Claessens,804,129
+1880,Biographical Text,Rafael Olewski,427,68
+1881,Still Image,Slaapzaal. Vrouwen liggen op bedden,0,0
+1882,Still Image,Slaapzaal. Vrouw op voorgrond draagt nog concentratiekamp kleding?,0,0
+1883,Biographical Text,Josef Rosensaft,709,108
+1884,Still Image,"ORT-Fachschule im Gebäude M.B. 87, 1940er Jahre",372,57
+1885,Still Image,"Sportklub Polonia, November 1945",188,31
+1886,Physical Object,"Polski Klub Sportowy ""Polonia"" Bergen-Belsen
+Legitymacia Nr. 6",333,53
+1887,Physical Object,"Personalkarte I Dmitrij Koschkin, Vorderseite",282,52
+1888,Still Image,Sowjetische Kriegsgefangene bei Bauarbeiten in der Kaserne Bergen-Hohne,79,11
+1889,Still Image,Arbeitskommando sowjetischer Kriegsgefangener in der Kaserne,363,63
+1890,Biographical Text,Hubert Allios,628,103
+1891,Text Item,"Auszug aus einem Brief von Lucien Fayman an die Schwester von Hubert Allios, 13. September 1945",1140,206
+1892,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen W. Damaschke, 19. September 1941",734,128
+1894,Contextual Item,Wehrmachtsoldaten,450,76
+1895,Contextual Item,Kommandantur Stalag,667,105
+1896,Contextual Item,Kriegsgefangene,1079,172
+1897,Contextual Item,Das polnische DP-Camp 1945-1946,703,107
+1898,Contextual Item,CTX Versorgung der Wehrmachtsoldaten,427,67
+1899,Contextual Item,CTX Berufliche Bildung im DP-Camp,958,150
+1900,Contextual Item,CTX Ankunft im Nebenlager,693,123
+1901,Contextual Item,Das Nebenlager in der Kaserne,910,149
+1902,Contextual Item,Das jüdische DP-Camp 1945-1950,764,120
+1903,Contextual Item,Repatriierung nach der Befreiung,833,126
+1904,Contextual Item,Das Offiziersheim der Wehrmacht,265,42
+1905,Contextual Item,Die Panzertruppenschule,22,4
+1906,Contextual Item,Ansichten aus der Wehrmachtzeit,663,110
+1907,Contextual Item,Zivilangestellte der Wehrmacht,477,69
+1908,Contextual Item,Unterhaltung für die Wehrmacht,506,81
+1909,Contextual Item,Propaganda für die Wehrmacht,568,87
+1910,Contextual Item,Gewalt im Nebenlager ,398,68
+1911,Contextual Item,Funktionshäftlinge im Nebenlager,656,97
+1912,Contextual Item,Ortserkundung nach der Befreiung,335,53
+1913,Contextual Item,Die Befreiung und erste Hilfsmaßnahmen,858,140
+1914,Contextual Item,Der Krankenblock im Nebenlager,591,98
+1915,Viewpoint,VP M.B. 89 Roach,0,0
+1916,Viewpoint,VP M.B.89 Landesschützen,0,0
+1917,Viewpoint,VP G.B. 6 Ansichten,0,0
+1918,Viewpoint,VP G.B. 6 Kommandantur,0,0
+1919,Viewpoint,VP G.B. 6 Kriegsgefangene,0,0
+1920,Viewpoint,VP G.B. 6 Polonia,0,0
+1921,Viewpoint,VP W.B. 23 Versorgung,0,0
+1922,Viewpoint,VP W.B. 23 Roach,0,0
+1923,Viewpoint,VP M.B. 87 Ausbildung,0,0
+1924,Viewpoint,VP M.B. 87 Roach,0,0
+1925,Viewpoint,VP M.B. 87 Unterbringung,0,0
+1926,Viewpoint,VP M.B. 87 Nebenlager,0,0
+1927,Viewpoint,VP M.B. 88 jüd DP-Camp,0,0
+1928,Viewpoint,VP M.B. 88 Roach,0,0
+1929,Viewpoint,VP M.B. 88 Befreiung,0,0
+1930,Viewpoint,VP M.B. 90 Krankenblock,0,0
+1931,Viewpoint,VP M.B. 90 Repatriierung,0,0
+1932,Viewpoint,VP Offiziersheim Offiziersheim,0,0
+1933,Viewpoint,VP Offiziersheim Panzertruppenschule,0,0
+1934,Viewpoint,VP Offiziersheim Ansichten,0,0
+1935,Viewpoint,VP Offiziersheim Nothospital,0,0
+1936,Viewpoint,VP Kino Ansichten,0,0
+1937,Viewpoint,VP Kino Zivilangestellte,0,0
+1938,Viewpoint,VP Kino Ablenkung,0,0
+1939,Viewpoint,VP Kino Kantine,0,0
+1940,Viewpoint,VP Kino Propaganda,0,0
+1941,Viewpoint,VP Kino DP-Camp,0,0
+1942,Viewpoint,VP W.B. 23 Nebenlager (Verpflegung),0,0
+1943,Viewpoint,VP Kleiner Friedhof Funktionshäftlinge,0,0
+1944,Viewpoint,VP Kleiner Friedhof Ortserkundung,0,0
+1945,Exhibit Metadata,M.B. 89 (titles),7,2
+1946,Exhibit Metadata,G.B. 6 (titles),6,2
+1947,Exhibit Metadata,W.B. 23 (titles),7,2
+1948,Exhibit Metadata,M.B. 87 (titles),7,2
+1949,Exhibit Metadata,M.B. 88 (titles),7,2
+1950,Exhibit Metadata,M.B. 90 (titles),7,2
+1951,Exhibit Metadata,Das Offiziersheim (titles),18,3
+1952,Exhibit Metadata,Das Kino (titles),10,2
+1953,Exhibit Metadata,Kleiner Friedhof (titles),18,3
+1954,Landscape Item,M.B. 89,7,2
+1955,Landscape Item,G.B. 6,6,2
+1956,Landscape Item,W.B. 23,7,2
+1957,Landscape Item,M.B. 87,7,2
+1958,Landscape Item,M.B. 88,7,2
+1959,Landscape Item,M.B. 90,7,2
+1960,Landscape Item,LND Das Offiziersheim,18,3
+1961,Landscape Item,Das Kino (Cinema),10,2
+1962,Landscape Item,Kleiner Friedhof,14,2
+1964,Still Image,"Kleiner Friedhof, April 2019",334,55
+1965,Viewpoint,VP Kleiner Friedhof Erinnerungskultur,0,0
+1966,Still Image,"Elektrikerausbildung der ORT-Berufsfachschule in Bergen-Belsen, undatiert",257,37
+1967,Text Item,"Aus dem Erinnerungsbericht von Jean Michel, Paris 1974",653,110
+1968,Biographical Text,Oskar Schmitz,764,131
+1969,Still Image,"M.B. 90, März 2019",19,4
+1970,Still Image,"Kleiner Friedhof, Gedenkstein für Samuel Laufer, 1940er Jahre",489,85
+1971,Contextual Item,Erinnerungskultur,977,161
+1972,Still Image,"Mannschafts-Speisesaal in der Kaserne Bergen-Hohne, 1930er/1940er Jahre",258,45
+1973,Text Item,"Tagebucheintrag des Belgiers Leopold Claessens, 10. April 1945",748,127
+1974,Still Image,"Relief über dem Eingang des Offiziersheims, Foto vom März 2019",188,31
+1975,Still Image,Richtfest am 19. Dezember 1935,0,0
+1976,Physical Object,"Bescheinigung der Eheschließung für Renata Kochman und Wolf Zajdman, 22. August 1945",496,82
+1977,Still Image,"Foto des Hochzeitspaares Zajdman, August 1945",55,10
+1978,Viewpoint,VP M.B. 89 Eheleute Zajdman,0,0
+1979,Physical Object,"Bestätigung über die Hochzeit nach jüdischer Tradition, 21. Januar 1946",410,66
+1980,Contextual Item,Neubeginn im DP-Camp,805,146
+1981,Still Image,"Eheleute Zajdman mit ihrem Sohn Mendel-Moise, Sommer 1947",214,34
+1982,Still Image,"Postkarte des Truppenübungsplatzes Bergen-Hohne, 1930er Jahre",123,16
+1983,Still Image,"Postkarte Ansichten vom Truppenübungsplatz Bergen, 1930er Jahre",192,30
+1984,Physical Object,"Brief des Wehrmachtangehörigen H. V. an seine Frau, 11. Oktober 1941",214,36
+1985,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen H. V., 6. Oktober 1941",740,136
+1986,Physical Object,"Personalkarte I Dimitrij Koschkin, Rückseite",392,64
+1987,Biographical Text,Gordon Walker,418,66
+1988,Biographical Text,Harry Oakes,663,115
+1989,Viewpoint,VP Friedhof Verpflegung,0,0
+1990,Still Image,"Widmung des Kommandanten des Truppenübungsplatzes, Generalmajor von Kempski, in der Werbebroschüre zum Kinogebäude",330,51
+1991,Contextual Item,Ein jüdisches Komitee im DP-Camp,729,119
+1992,Contextual Item,Sport und Kultur im polnischen DP-Camp,557,92
+1993,Contextual Item,Das Displaced Persons Camp Bergen-Belsen 1945-1950,1083,165
+1994,Physical Object,"Die Verwaltung der Gefangenenkartei am Beispiel von Iwan Schilin, 1941",446,67
+1995,Biographical Text,Heinz Galinski,925,153
+1996,Still Image,"Mitglieder des polnischen DP-Camp-Komitees auf dem ehemaligen Gelände des KZ Bergen-Belsen, 2. November 1945",397,62
+1997,Still Image,Werbebroschüre für die Truppen-Lichtspiele,56,8
+1998,Still Image,"Mitglieder des jüdischen Zentralkomitees, 20. Juli 1947",286,45
+1999,Still Image,"Warten auf die Repatriierung, 25. April 1945",253,41
+2000,Text Item,"Bericht in der DP-Zeitung 'Unzer Sztyme', 15. Oktober 1945",948,151
+2001,Text Item,"Aufruf der Kulturabteilung des Zentralkomitees der befreiten Juden in der britischen Zone, 29. November 1945",869,128
+2002,Text Item,"Auszug aus dem Artikel von Georg Will in der Werbebroschüre des Kinos, vermutlich 1938",285,50
+2003,Text Item,"Auszug aus der Resolution des 1. Kongresses der Überlebenden, 25.-27. September 1945",0,0
+2004,Still Image,"Innenansicht des Offiziersheims, 1930er/1940er Jahre",196,30
+2005,Still Image,"Innenansicht des Kinosaals, vermutlich 1938",107,17
+2006,Still Image,"Innenansicht des Kinosaals mit Blick zur Bühne, vermutlich 1938",63,10
+2007,Still Image,"Frontseite des Kinogebäudes, 1937",0,0
+2008,Physical Object,"Auszug aus dem Arbeitsbuch einer Zivilangestellten, 1938-1944",444,74
+2009,Biographical Text,Madeleine Weis-Bauler,448,68
+2010,Biographical Text,Georg Will,472,85
+2011,Still Image,"Die heutige Ansicht des Eingangs vom Gebäude M.B. 87, April 2019",58,11
+2012,Contextual Item,Unterhaltung im DP-Camp,838,133
+2013,Contextual Item,Hilfsmaßnahmen nach der Befreiung,933,151
+2014,Viewpoint,VP Das Displaced Persons Camp Bergen-Belsen,0,0
+2015,Still Image,"Schreiben des Kommandanten des Truppenübungsplatzes, 
+11. September 1939",398,66
+2016,Text Item,"Auszug aus dem Brief des Wehrmachtangehörigen H. V. an seine Frau, 11. Oktober 1941",542,94
+2017,Still Image,"Das Ensemble des „Kazet“-Theaters in Häftlingskleidung, undatiert",487,67
+2018,Biographical Text,Sami Feder,843,140
+2019,Physical Object,"Tagebucheintrag von Leopold Claessens, 16. April 1945 (1. Seite)",0,0
+2020,Physical Object,"Tagebucheintrag von Leopold Claessens, 16. April 1945 (2. Seite)",0,0
+2021,Still Image,"Ehemaliges Wachpersonal und befreite Häftlinge vor dem Gebäude M.B. 90, 16. April 1945",462,76
+2022,Physical Object,"Tagebucheintrag Leopold Claessens, 16. April 1945 (2 Seiten)",225,35
+2023,Still Image,"Außenansicht des Kinos während der Wehrmachtzeit, vermutlich 1938",256,44
+2024,Contextual Item,Ansichten des Offiziersheims aus Wehrmachtzeiten,462,73
+2025,Contextual Item,Ansichten aus der Wehrmachtzeit,381,59
+2026,Landscape Item,LND Bridges,7,1
+2027,Landscape Item,Documentation centre,20,2
+2028,Landscape Item,Anne Frank square,17,3
+2029,Landscape Item,LND Watchtower (#T2),12,2
+2030,Landscape Item,LND POW monument (girl),8,1
+2031,Landscape Item,LND Year stone 1941,15,3
+2032,Landscape Item,LND Year stone 1942,15,3
+2033,Landscape Item,LND Year stone 1943,15,3
+2034,Landscape Item,LND Cross POW,5,1
+2035,Landscape Item,LND shooting range,24,3
+2036,Landscape Item,LND Star camp,9,2
+2037,Landscape Item,LND Hungarians' camp,16,2
+2038,Landscape Item,LND Neutrals' camp,14,2
+2039,Landscape Item,LND Vorlager,22,2
+2040,Landscape Item,LND POW hospital,618,102
+2041,Landscape Item,LND POW camp,8,2
+2042,Landscape Item,LND POW Polish soldiers,41,7
+2043,Landscape Item,LND Corridor,16,2
+2044,Landscape Item,LND path to POW cemetery,24,5
+2045,Landscape Item,LND Wehrmacht Truppenlager (Garrison),18,2
+2046,Landscape Item,LND Italian POWs,12,2
+2047,Landscape Item,LND Kitchen (SK1062),7,1
+2048,Landscape Item,LND POW hospital area,17,3
+2049,Landscape Item,LND Special camp for Polish prisoners,33,6
+2050,Landscape Item,LND Hygiene and latrines,18,3
+2051,Landscape Item,LND The camp's perimeter and watchtowers,36,5
+2052,Contextual Item,CTX Täterschaft,1263,189
+2053,Contextual Item,Die Verladerampe,371,62
+2054,Landscape Item,LND Appelplatz Sternlager,33,7
+2055,Oral History,Test item audio,15,3
+2056,Physical Object,Fotoapparat Leica III von Wieslaw Chrzanowski,341,56
+2057,Physical Object,Gestickte Katze,319,55
+2058,Landscape Item,LND DemoExhibitBBG,18,2
+2059,Viewpoint,ViewpointBBGPage1,0,0
+2060,Viewpoint,ViewpointBBGPage2,0,0
+2061,Viewpoint,ViewpointBBGPage3,0,0
+2062,Landscape Item,BBMemo2024 LND Star Camp,9,2
+2063,Contextual Item,BBMemo2024 The Star Camp,497,83
+2064,Still Image,BBMemo2024 Blick in das Sternlager,40,7
+2065,Landscape Item,BBMemo2024 LND Vegetable Cellar,16,2
+2066,Contextual Item,"BBMemo2024 Food, Kitchens",553,90
+2067,Still Image,BBMemo2024 Egy kis tábori élet,96,13
+2068,Oral History,BBMemo2024 Arbeitskommandos innerhalb des Lagers,2052,378
+2069,Landscape Item,BBMemo2024 LND Gate to Prisoner Compound,418,71
+2070,Contextual Item,BBMemo2024 The Gate to the Concentration Camp Prisoners' Compound,447,75
+2071,Landscape Item,BBMemo2024 LND Concentration camp Bergen-Belsen,32,3
+2072,Contextual Item,"BBMemo2024 CTX: The Concentration Camp, Introduction",1277,198
+2073,Landscape Item,BBMemo2024 LND Camp's Main Entrance,515,82
+2074,Still Image,BBMemo2024 Gate to the Belsen camp,186,31
+2075,Landscape Item,BBMemo2024 LND Train Loading Platform,9,2
+2076,Contextual Item,BBMemo2024 Die Verladerampe (The Loading Platform),405,55
+2077,Still Image,BBMemo2024 Loading platform,148,21
+2078,Landscape Item,BBMemo2024 LND Hungarians' Camp,16,2
+2079,Contextual Item,BBMemo2024 The Hungarians' Camp,518,84
+2080,Text Item,"BBMemo2024 Unterbringung im Ungarnlager, Dezember 1944",799,137
+2081,Landscape Item,BBMemo2024 LND Women's camp,632,101
+2082,Contextual Item,BBMemo2024 The Women's Camp,629,101
+2083,Landscape Item,BBMemo2024 LND Men's camp,473,71
+2084,Contextual Item,BBMemo2024 The Men's Camp,477,72
+2085,Text Item,BBMemo2024 Beschreibung des Männerlagers,817,147
+2086,Landscape Item,BBMemo2024 LND Workshops,9,1
+2087,Contextual Item,BBMemo2024 Workshops,600,95
+2088,Landscape Item,BBMemo2024 LND Neutrals' camp,14,2
+2089,Contextual Item,BBMemo2024 Neutrals' Camp,257,41
+2090,Landscape Item,BBMemo2024 LND Delousing (2),15,2
+2091,Contextual Item,BBMemo2024 Delousing Baths,625,100
+2092,Landscape Item,BBMemo2024 LND Crematorium (Camp 1),11,1
+2093,Still Image,BBMemo2024 Crematorium 4/28/1945,122,18
+2094,Landscape Item,BBMemo2024 LND Kitchen (SK1062),7,1
+2095,Still Image,"BBMemo2024 Anbau an eine Küchenbaracke, 1944",54,8
+2096,Oral History,"BBMemo2024 Arbeiten in Küche II, 1944",381,67
+2097,Landscape Item,BBMemo2024 LND Special camp for Polish prisoners,33,6
+2098,Contextual Item,BBMemo2024 Special Camp for Jews from Poland,364,60
+2099,Text Item,BBMemo2024 Der Tagesablauf im polnischen Sonderlager,800,146
+2100,Landscape Item,BBMemo2024 LND Hygiene and latrines,20,3
+2101,Landscape Item,BBMemo2024 Latrine Huts,403,70
+2102,Oral History,"BBMemo2024 Sanitäre Situation in der Baracke, 1944",806,140
+2103,Landscape Item,BBMemo2024 LND Main street,640,115
+2104,Still Image,BBMemo2024 A Bergen-Belsen-i tábor távlati képe,206,30
+2105,Landscape Item,BBMemo2024 LND The camp's perimeter and watchtowers,36,5
+2106,Contextual Item,BBMemo2024 The Camp's Perimeter,534,89
+2107,Landscape Item,BBMemo2024 LND Separation strip (Corridor),16,2
+2108,Contextual Item,"BBMemo2024 Watchtower, Separation strip",564,92
+2109,Landscape Item,BBMemo2024 LND Appelplatz Sternlager,33,7
+2110,Text Item,BBMemo2024 New arrivals in the Women's Camp,983,176
+2111,Still Image,BBMemo2024 Hut 211 Women's Camp,152,26
+2112,Contextual Item,BBMemo2024 Crematorium,1083,181
+2113,Text Item,BBMemo2024 Arbeit im Krematorium,939,172
+2114,Still Image,BBMemo2024 Crematorium 4/17/1945,81,11
+2115,Text Item,BBMemo2024 Das Arbeitskommando der Weberei,753,124
+2116,Text Item,BBMemo2024 Shoe factory 4/22/1944,2283,400
+2117,Still Image,"BBMemo2024 Werkstätten, 1944",34,4
+2118,Contextual Item,BBMemo2024 Appelplatz sternlager,612,101
+2119,Physical Object,BBMemo2024 Hilde Grünbaum’s armband and briefcase,380,66
+2120,Still Image,BBMemo2024 Interior of a kitchen (after liberation),40,6
+2121,Still Image,"BBMemo2024 Das Brot, 1944",30,4
+2122,Still Image,"BBMemo2024 Blick aus dem Sternlager auf die Lagerstraße, 1944",68,12
+2123,Still Image,BBMemo2024 Skizze Albalalager (Sternlager) Bergen-Belsen Februar 1945,164,25
+2124,Still Image,BBMemo2024 Létszámellenörzés a Bergen-Belseni táborban,89,11
+2125,Still Image,"BBMemo2024 Appellplatz des Sternlagers, 1944",57,8
+2126,Still Image,BBMemo2024 Object: Tagebucheintrag von Renata Laqueur vom 4. Mai 1944,394,71
+2127,Still Image,BBPanel42024 Barak belsö,73,10
+2128,Still Image,BBPanel42024 Kitchen after liberation (NARA),31,4
+2129,Still Image,BBPanel42024 Brot ÓH!,33,4
+2130,Still Image,BBPanel42024 Ételhordók a kapuhoz?!!,84,13
+2131,Still Image,"BBPanel42024 Das Brot, 1944",30,4
+2132,Still Image,BBPanel42024 Woman eating after liberation,38,6
+2133,Still Image,"BBPanel42024 « Corvée des cadavres Belsen-Bergen, avril 45 »",41,5
+2134,Still Image,"BBPanel42024 Roll Call - Belsen, 1944",122,19
+2135,Still Image,"BBPanel42024 A Young Boy From Belsen Concentration Camp, 1945",744,129
+2136,Still Image,BBPanel42024 Ebédosztás,75,10
+2137,Still Image,"BBPanel42024 Notes from Belsen Camp, 1945",297,48
+2138,Text Item,The most delicious thing,704,122
+2139,Text Item,Unsere Essensportionen,329,61
+2140,Text Item,Essensrationen,964,174
+2141,Text Item,Lebensbedingungen im Lager,523,92
+2142,Text Item,Die Situation im Lager,856,158
+2143,Text Item,Sterben in Bergen-Belsen,350,62
+2144,Text Item,Essenssuche,168,29
+2145,Text Item,"Kein Wasser, kein Essen",124,22
+2146,Still Image,BBMemo2024 Photo of former prisoners behind barbed wire after liberation,125,20
+2147,Still Image,BBMemo2024 Egy kis tábori élet,96,13
+2148,Still Image,BBMemo2024 LATRINA ÓH!,68,10
+2149,Text Item,"BBMemo2024 Ankunft im Häftlingslager, Juni 1944",939,160
+2150,Still Image,Blick vom Wachturm,262,41
+2151,Physical Object,BBMemo2024 Aimé Blanc's prisoner tag,518,86
+2152,Still Image,BBMemo2024 Status report for Bergen-Belsen concentration camp (male prisoners) 31 March 1945,359,55
+2153,Still Image,BBMemo2024 Bibel und Predigtskizze,422,74
+2154,Still Image,BBMemo2024 Temetés a magyar 'Sondern-Lagerban'. A gyászolók a kapuig követhettik a halottas kocsit,156,23
+2155,Text Item,BBMemo2024 Text item: Tagebucheintrag von Renata Laqueur vom 4. Mai 1944,1529,285
