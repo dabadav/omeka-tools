@@ -12,9 +12,26 @@ does the paginated IO. Element field names default to Westerbork's schema and ar
 overridable per instance.
 """
 from __future__ import annotations
+import html
+import re
 from typing import Callable, Iterable, Iterator, Optional
 
 from .tag_taxonomy import tag_payload
+
+_TAG = re.compile(r"<[^>]+>")
+_BLOCK = re.compile(r"(?i)</p\s*>|<br\s*/?>")
+
+
+def strip_html(text: Optional[str]) -> str:
+    """Omeka caption fields contain HTML (<p>, <br/>, <span class=...>). Strip to clean
+    plain text — for the embeddings AND the display layer."""
+    if not text:
+        return ""
+    t = _BLOCK.sub("\n", text)          # paragraph/line breaks -> newline
+    t = _TAG.sub("", t)                 # drop remaining tags
+    t = html.unescape(t)                # &nbsp; &amp; -> chars
+    lines = [re.sub(r"[ \t]+", " ", ln).strip() for ln in t.splitlines()]
+    return "\n".join(ln for ln in lines if ln).strip()
 
 # Westerbork element-name defaults (verified against live items, e.g. id 2512).
 # Override per instance via omeka_to_documents(..., text_fields=[...]).
@@ -106,8 +123,8 @@ def format_item(
 
     return {
         "id": str(item["id"]),
-        "title": _first(flat, title_fields) or "",
-        "text": _concat(flat, text_fields),
+        "title": strip_html(_first(flat, title_fields) or ""),
+        "text": strip_html(_concat(flat, text_fields)),
         "content_type": _map_type(item.get("item_type") or {}),
         "tags": tags,
         "creator": _first(flat, creator_fields),

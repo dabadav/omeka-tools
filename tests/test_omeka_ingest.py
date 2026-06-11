@@ -79,6 +79,19 @@ def test_main_caption_used_as_text_for_object_items():
     assert "language_how.tone_of_text:descriptive" in labels
 
 
+def test_strips_html_from_caption_text():
+    item = {
+        "id": 3, "item_type": {"name": "Still Image"}, "tags": [],
+        "element_texts": [
+            {"element_set": {"name": "x"}, "element": {"name": "Main Caption (English)"},
+             "text": '<p class="p1"><span class="s1">Barrack 3.<br /><br /></span>Built in 1939.</p>'},
+        ],
+    }
+    doc = format_item(item)
+    assert "<" not in doc["text"] and "class" not in doc["text"]
+    assert "Barrack 3." in doc["text"] and "Built in 1939." in doc["text"]
+
+
 def test_iter_items_paginates_then_stops():
     class FakeClient:
         def __init__(self):
