@@ -12,7 +12,7 @@ from __future__ import annotations
 
 from typing import Callable, Iterator, Optional
 
-from .taxonomy import to_tag
+from .taxonomy import to_tags
 from .utils import filter_json, get_public_url
 
 # Omeka item_type name -> ContentDocument.content_type value.
@@ -84,7 +84,9 @@ def omeka_to_documents(
         creator = (el.get("creator") or [None])[0]
 
         flat = filter_json(raw).get("tags") or []
-        tags = [to_tag(t["name"]) for t in flat if t.get("name")]
+        # to_tags yields the granular tag plus a main-theme rollup for subtags;
+        # ContentDocument dedups by canonical key so repeats collapse cleanly.
+        tags = [tag for t in flat if t.get("name") for tag in to_tags(t["name"])]
 
         files_url = files_resolver(item_id) if files_resolver else []
 
