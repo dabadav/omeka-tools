@@ -1,0 +1,526 @@
+count	omeka_tag	facet	canonical_label	source
+8	forced labour camp	theme_what	forced labor camp	default
+7	Train	theme_what	train	default
+5	Hollandsche Schouwburg	theme_what	hollandsche schouwburg	default
+4	liberation experiences	theme_what	liberation experiences	default
+3	Tranportation	theme_what	transportation	default
+2	barak 28	theme_what	barak 28	default
+2	commemoration	theme_what	commemoration	default
+2	Den Bosch	theme_what	den bosch	default
+2	trials	theme_what	trials	default
+1	'antisocial'	theme_what	'antisocial'	default
+1	anti-Semitism	theme_what	anti semitism	default
+1	Austrian	theme_what	austrian	default
+1	beatings. violence	theme_what	beatings. violence	default
+1	creative	theme_what	creative	default
+1	De Biezen	theme_what	de biezen	default
+1	De Schaffelaer	theme_what	de schaffelaer	default
+1	document provision	theme_what	document provision	default
+1	Hoek van Holland refugee camp	theme_what	hoek van holland refugee camp	default
+1	labour	theme_what	labor	default
+1	Moerdijk	theme_what	moerdijk	default
+1	Netherlands	theme_what	netherlands	default
+1	Noordoostpolder Internment Camp	theme_what	noordoostpolder internment camp	default
+1	Oranjehotel	theme_what	oranjehotel	default
+1	orp	theme_what	orp	default
+1	Scheveningen prison	theme_what	scheveningen prison	default
+1	shaving	theme_what	shaving	default
+1	Texel refugee camp	theme_what	texel refugee camp	default
+1	torture	theme_what	torture	default
+1	Volksdeutche	theme_what	volksdeutsche	default
+1	Westerbork	theme_what	westerbork	default
+1	work	theme_what	work	default
+127	Camp Westerbork	place_where.transit_destinations	camp westerbork	pattern
+127	photograph	medium_what	photograph	exact
+118	Transit camp	time_when.time_period	transit camp	exact
+116	from: Netherlands	person_who.city_village_country	from: netherlands	prefix
+115	Dutch	person_who.mothertongue	dutch	exact
+109	prisoner	person_who.reason_for_imprisonment	prisoner	exact
+107	Anecdotes	theme_how.type_of_stores	anecdotes	exact
+107	written testimony	medium_what	written testimony	exact
+102	Jewish	person_who.reason_for_imprisonment	jewish	exact
+96	biographical text	medium_what	biographical text	exact
+94	Personal Stories	theme_how.type_of_stores	personal stories	exact
+87	Deportation and Transport	theme_what	deportation and transport	exact
+84	map	medium_what	map	exact
+79	Male	person_who.gender_and_age	male	exact
+77	Historical Context & Overview	theme_how.type_of_stores	historical context & overview	exact
+75	deportation	theme_what	deportation and transport	subtag
+64	victim	person_who.reason_for_imprisonment	victim	exact
+62	text	medium_what	text	exact
+60	Historical context	theme_how.type_of_stores	historical context	exact
+59	family	theme_what	family	exact
+53	Discrimination	theme_what	discrimination	exact
+51	Death and Mortality	theme_what	deaths and mortality	exact
+45	Brutality and Killings	theme_what	brutality and killings	exact
+45	extermination	theme_what	deaths and mortality	subtag
+42	family histories	theme_what	family	subtag
+41	anti-Jewish arrests	theme_what	discrimination	subtag
+41	deported to: Auschwitz-Birkenau	place_where.transit_destinations	deported to: auschwitz birkenau	prefix
+41	Forced Labor	theme_what	forced labor	exact
+41	social relations	theme_what	social relations	subtag
+40	female	person_who.gender_and_age	female	exact
+39	children	theme_what	family	subtag
+39	murder	theme_what	brutality and killings	subtag
+35	Guarding	theme_what	guarding	exact
+35	parents	theme_what	family	subtag
+35	perpetrators	theme_how.ai_engine_themes	perpetrators	exact
+34	anti-Jewish measures	theme_what	discrimination	subtag
+31	Aid and Protection	theme_what	aid and protection	exact
+31	forced labor activities	theme_what	forced labor	subtag
+30	Adaptation and Survival	theme_what	adaptation and survival	exact
+30	age 25-34	person_who.age_group	age 25 34	exact
+29	arrests	theme_what	discrimination	subtag
+29	perpetrator	theme_what	guarding	subtag
+29	SS	theme_what	guarding	subtag
+28	hiding	theme_what	living conditions	subtag
+28	Perpetrators & Bystanders	theme_how.ai_engine_themes	perpetrators & bystanders	exact
+27	from: Germany	person_who.city_village_country	from: germany	prefix
+25	age 35-44	person_who.age_group	age 35 44	exact
+25	survivor	person_who.reason_for_imprisonment	survivor	exact
+24	AiARLocationBarrack56	place_where.camp_areas	barrack 56	pattern
+24	AiARLocationGuardTowers	place_where.camp_areas	guard towers	exact
+23	AiARLocationBarrack3	place_where.camp_areas	barrack 3	pattern
+23	AiARLocationBarrack35	place_where.camp_areas	barrack 35	pattern
+23	AiARLocationBarrack9	place_where.camp_areas	barrack 9	pattern
+23	barrack 3	place_where.camp_areas	barrack 3	pattern
+23	barrack 56	place_where.camp_areas	barrack 56	pattern
+23	barrack 67	place_where.camp_areas	barrack 67	pattern
+23	barrack 75	place_where.camp_areas	barrack 75	pattern
+23	barrack 9	place_where.camp_areas	barrack 9	pattern
+23	commander's house	place_where.camp_areas	commander's house	exact
+23	Cultural and Creative Activities	theme_what	cultural and creative activities	exact
+23	Daily Life & Camp Experience	theme_how.type_of_stores	daily life & camp experience	exact
+23	Flight and Migration	theme_what	flight and migration	exact
+23	watch tower	theme_what	guarding	subtag
+22	AiARLocationBarrack75	place_where.camp_areas	barrack 75	pattern
+22	AiARLocationBarracks65-67	place_where.camp_areas	barracks 65 67	pattern
+22	AiARLocationCommandersHouse	place_where.camp_areas	commander's house	exact
+22	AiARLocationEntrance	place_where.camp_areas	entrance	exact
+22	barrack 28	place_where.camp_areas	barrack 28	pattern
+22	barrack 35	place_where.camp_areas	barrack 35	pattern
+22	Biography	medium_what	biographical text	exact
+21	AiARLocationBarracks28-30	place_where.camp_areas	barracks 28 30	pattern
+21	camp commander	theme_what	guarding	subtag
+21	entrance	place_where.camp_areas	entrance	exact
+21	guards	theme_what	guarding	subtag
+20	age 45-54	person_who.age_group	age 45 54	exact
+20	child	person_who.age_group	child	exact
+20	German	person_who.mothertongue	german	exact
+19	Camp Procedures	theme_what	camp procedures	subtag
+19	personal story	theme_how.type_of_stores	personal stories	exact
+19	Reflections & Encounters	theme_how.type_of_stores	reflections & encounters	exact
+18	survival	theme_what	adaptation and survival	subtag
+17	acts of resistance	theme_what	daily life	subtag
+17	age 18-24	person_who.age_group	age 18 24	exact
+17	aid giving	theme_what	aid and protection	subtag
+17	Jewish Council	theme_what	political activities	subtag
+17	marriages	theme_what	family	subtag
+17	resistance	theme_how.ai_engine_themes	resistance	exact
+17	Roma and Sinti	person_who.reason_for_imprisonment	roma and sinti	exact
+17	siblings	theme_what	family	subtag
+17	Sinti & Roma	theme_how.ai_engine_themes	sinti & roma	exact
+16	Food and Hunger	theme_what	food and hunger	exact
+16	physical document	medium_what	physical document	exact
+16	roundups	theme_what	discrimination	subtag
+15	age 16-18	person_who.age_group	age 16 18	exact
+15	friends	theme_what	social relations	subtag
+15	Thoughts and Feelings	theme_what	thoughts and feelings	exact
+14	age 55-64	person_who.age_group	age 55 64	exact
+14	Jewish Culture & Religion	theme_how.ai_engine_themes	jewish culture & religion	exact
+14	lived in: Amsterdam	person_who.city_village_country	lived in: amsterdam	prefix
+14	Religion	theme_what	religion	exact
+14	survival explanations	theme_what	adaptation and survival	subtag
+13	buildings	place_where.camp_areas	buildings	exact
+13	camp food	theme_what	food and hunger	subtag
+13	camp intake procedures	theme_what	camp procedures	subtag
+13	deported to: Sobibor	place_where.transit_destinations	deported to: sobibor	prefix
+13	hiding place	theme_what	adaptation and survival	subtag
+13	punishment barracks	place_where.camp_areas	punishment barracks	exact
+13	resistance activities	theme_what	political activities	subtag
+12	age 65-74	person_who.age_group	age 65 74	exact
+12	age 74-85	person_who.age_group	age 74 85	pattern
+12	dispossession	theme_what	camp procedures	subtag
+12	International	person_who.city_village_country	international	rollup
+12	kitchen	theme_what	food and hunger	subtag
+12	kitchens	place_where.camp_areas	kitchens	exact
+12	Liberation	theme_what	liberation	subtag
+12	Living Conditions	theme_what	living conditions	subtag
+12	Object	medium_what	object	exact
+12	orphanage	place_where.camp_areas	orphanage	exact
+12	Political Activities	theme_what	political activities	exact
+12	Social dynamics	theme_what	social relations	subtag
+11	18-24 years	person_who.age_group	18 24 years	pattern
+11	age 85+	person_who.age_group	age 85+	exact
+11	collaboration	theme_what	guarding	subtag
+11	deportation experiences	theme_what	deportation and transport	subtag
+11	family life	theme_what	family	subtag
+11	Health and Diseases	theme_what	health and diseases	exact
+11	Internment Camp	place_where.camp_areas	internment camp	exact
+11	Sport & Theater	theme_how.ai_engine_themes	sport & theater	exact
+11	“Sports” & “Leisure”	theme_how.ai_engine_themes	"sports" & "leisure"	exact
+10	16-18 years	person_who.age_group	16 18 years	pattern
+10	25-34 years	person_who.age_group	25 34 years	pattern
+10	35-44 years	person_who.age_group	35 44 years	pattern
+10	45-54 years	person_who.age_group	45 54 years	pattern
+10	55-64 years	person_who.age_group	55 64 years	pattern
+10	65-74 years	person_who.age_group	65 74 years	pattern
+10	75-84 years	person_who.age_group	75 84 years	pattern
+10	85+ years	person_who.age_group	85+ years	pattern
+10	Awareness and Reflection	theme_what	awareness and reflection	exact
+10	barracks	place_where.camp_areas	barracks	exact
+10	Brabant	person_who.province_netherlands	brabant	exact
+10	Buitenland	person_who.province_netherlands	buitenland	exact
+10	Daders & Omstanders	theme_how.ai_engine_themes	perpetrators & bystanders	exact
+10	denouncement	theme_what	discrimination	subtag
+10	deported to: Theresienstadt	place_where.transit_destinations	deported to: theresienstadt	prefix
+10	discriminatory measures	theme_what	discrimination	subtag
+10	Drenthe	person_who.province_netherlands	drenthe	exact
+10	Flevoland	person_who.province_netherlands	flevoland	exact
+10	flight	theme_what	flight and migration	subtag
+10	Friesland	person_who.province_netherlands	friesland	exact
+10	Gelderland	person_who.province_netherlands	gelderland	exact
+10	Groningen	person_who.province_netherlands	groningen	exact
+10	hiding adaptation methods	theme_what	adaptation and survival	subtag
+10	Joods Leven	theme_what	jewish life	subtag
+10	Limburg	person_who.province_netherlands	limburg	exact
+10	Noord-Holland	person_who.province_netherlands	noord holland	exact
+10	Overijssel	person_who.province_netherlands	overijssel	exact
+10	refugee	theme_what	flight and migration	subtag
+10	Refugee Camp	time_when.time_period	refugee camp	exact
+10	registration	theme_what	camp procedures	subtag
+10	shelter provision	theme_what	aid and protection	subtag
+10	sustenance provision	theme_what	aid and protection	subtag
+10	Utrecht	person_who.province_netherlands	utrecht	exact
+10	verzet	theme_how.ai_engine_themes	resistance	exact
+10	Zeeland	person_who.province_netherlands	zeeland	exact
+10	Zuid-Holland	person_who.province_netherlands	zuid holland	exact
+9	camp hospital	theme_what	health and diseases	subtag
+9	descriptive (tone)	language_how.tone	descriptive (tone)	pattern
+9	historical (tone)	language_how.tone	historical (tone)	pattern
+9	housing conditions	theme_what	living conditions	subtag
+9	illusion	theme_what	awareness and reflection	subtag
+9	nuanced (tone)	language_how.tone	nuanced (tone)	pattern
+9	reflections	theme_what	awareness and reflection	subtag
+9	Sport & Theatre	theme_how.ai_engine_themes	sport & theater	exact
+9	trains	theme_what	deportation and transport	subtag
+9	wartime family interactions	theme_what	family	subtag
+8	artwork	medium_what	artwork	exact
+8	barracks 28-30	place_where.camp_areas	barracks 28 30	pattern
+8	barracks 65-67	place_where.camp_areas	barracks 65 67	pattern
+8	Camp experience	place_where.transit_destinations	camp experience	pattern
+8	escape	theme_what	flight and migration	subtag
+8	farming	theme_what	daily life	subtag
+8	food	theme_what	food and hunger	subtag
+8	food rationing	theme_what	food and hunger	subtag
+8	punishment	theme_what	camp procedures	subtag
+8	resistance fighter	person_who.reason_for_imprisonment	resistance fighter	exact
+8	resistance fighters	theme_what	political activities	subtag
+8	SD	theme_what	guarding	subtag
+8	storage barrack	place_where.camp_areas	storage barrack	exact
+7	'S-inmates'	person_who.reason_for_imprisonment	's inmates'	exact
+7	child girl	person_who.reason_for_imprisonment	child girl	exact
+7	commandant's house	place_where.camp_areas	commander's house	exact
+7	education	theme_what	daily life	subtag
+7	food acquisition	theme_what	food and hunger	subtag
+7	Frisian	person_who.mothertongue	frisian	exact
+7	from: Poland	person_who.city_village_country	from: poland	prefix
+7	Judaism	theme_what	religion	subtag
+7	medical staff	theme_what	health and diseases	subtag
+7	Nazi propaganda	theme_what	discrimination	subtag
+7	orphans	theme_what	family	subtag
+7	positive encounters	theme_what	social relations	subtag
+7	sports	theme_what	cultural and creative activities	subtag
+7	synagogue	theme_what	religion	subtag
+6	anti-Romani	theme_what	discrimination	subtag
+6	anti-Romani arrests	theme_what	discrimination	subtag
+6	child boy	person_who.reason_for_imprisonment	child boy	exact
+6	Civilian	theme_what	awareness and reflection	subtag
+6	construction forced labour	theme_what	forced labor	subtag
+6	deported to: Camp Amersfoort	place_where.transit_destinations	deported to: camp amersfoort	prefix
+6	deported to: Camp Vught	place_where.transit_destinations	deported to: camp vught	prefix
+6	Dutch military police	theme_what	guarding	subtag
+6	Holocaust awareness	theme_what	awareness and reflection	subtag
+6	labour camp	place_where.camp_areas	labor camp	exact
+6	medical care	theme_what	health and diseases	subtag
+6	NSB	theme_what	guarding	subtag
+6	religious observances	theme_what	religion	subtag
+6	Schattenberg period	time_when.time_period	schattenberg period	exact
+6	school	theme_what	daily life	subtag
+5	adaptation	theme_what	adaptation and survival	subtag
+5	adult	person_who.age_group	adult	exact
+5	arrived from: Camp Vught	place_where.transit_destinations	arrived from: camp vught	prefix
+5	brutal treatment	theme_what	brutality and killings	subtag
+5	camp-related housing conditions	place_where.transit_destinations	camp related housing conditions	pattern
+5	Christianity	theme_what	religion	subtag
+5	contemporary time	time_when.time_period	contemporary time	exact
+5	cultural activities	theme_what	cultural and creative activities	subtag
+5	Daily life	theme_what	daily life	exact
+5	death	theme_what	deaths and mortality	exact
+5	doctor	theme_what	health and diseases	subtag
+5	emotions	theme_what	thoughts and feelings	subtag
+5	feelings	theme_what	thoughts and feelings	subtag
+5	friendship	theme_what	social relations	subtag
+5	hiding-related social relations	theme_what	social relations	subtag
+5	lived in: Utrecht	person_who.city_village_country	lived in: utrecht	prefix
+5	Netherlands Marechaussee	theme_what	guarding	subtag
+5	post-World War II reflections	theme_what	awareness and reflection	subtag
+5	solidarity	theme_what	social relations	subtag
+5	somber (tone)	language_how.tone	somber (tone)	pattern
+5	understated (tone)	language_how.tone	understated (tone)	pattern
+4	agricultural forced labour	theme_what	forced labor	subtag
+4	baptism	theme_what	religion	subtag
+4	Born in: Groningen	person_who.city_village_country	born in: groningen	prefix
+4	bystander	theme_what	awareness and reflection	subtag
+4	Canadian troops	theme_what	liberation	subtag
+4	collaborators	person_who.reason_for_imprisonment	collaborators	exact
+4	death marches	theme_what	brutality and killings	subtag
+4	decisions	theme_what	adaptation and survival	subtag
+4	elderly	person_who.age_group	elderly	exact
+4	flight preparations	theme_what	flight and migration	subtag
+4	From: Austria	person_who.city_village_country	from: austria	prefix
+4	Jewish Order Service (OD)	theme_what	guarding	subtag
+4	live in: Amsterdam	person_who.city_village_country	live in: amsterdam	prefix
+4	medical forced labor	theme_what	forced labor	subtag
+4	music	theme_what	cultural and creative activities	subtag
+4	musical recitals	theme_what	cultural and creative activities	subtag
+4	Polish	person_who.mothertongue	polish	exact
+4	rabbi	theme_what	religion	subtag
+4	shootings	theme_what	brutality and killings	subtag
+4	thoughts	theme_what	thoughts and feelings	subtag
+4	witness	theme_what	awareness and reflection	subtag
+3	antisemitism	theme_what	discrimination	subtag
+3	beatings	theme_what	brutality and killings	subtag
+3	born in: Amsterdam	person_who.city_village_country	born in: amsterdam	prefix
+3	born in: Meppel	person_who.city_village_country	born in: meppel	prefix
+3	camp adaptation methods	theme_what	adaptation and survival	subtag
+3	camp education	place_where.transit_destinations	camp education	pattern
+3	Camp Vught	place_where.transit_destinations	camp vught	pattern
+3	camp-related social relations	place_where.transit_destinations	camp related social relations	pattern
+3	construction	theme_what	forced labor	subtag
+3	fine arts	theme_what	cultural and creative activities	subtag
+3	hospitals	theme_what	health and diseases	subtag
+3	humiliation	theme_what	brutality and killings	subtag
+3	illness	theme_what	health and diseases	subtag
+3	Jewish Life	theme_what	jewish life	subtag
+3	lived in: Rotterdam	person_who.city_village_country	lived in: rotterdam	prefix
+3	lived in: Zwolle	person_who.city_village_country	lived in: zwolle	prefix
+3	love	theme_what	thoughts and feelings	subtag
+3	memorial museum	time_when.time_period	memorial museum	exact
+3	over-crowdedness	theme_what	living conditions	subtag
+3	protection	theme_what	aid and protection	subtag
+3	Shabbat	theme_what	jewish life	subtag
+3	Soviet troops	theme_what	liberation	subtag
+3	survivor marriages	theme_what	family	subtag
+3	unsettling (tone)	language_how.tone	unsettling (tone)	pattern
+3	violence	theme_what	brutality and killings	subtag
+2	AiARLocationBarrack28	place_where.camp_areas	barrack 28	pattern
+2	Allied forces	theme_what	liberation	subtag
+2	born in: Born	person_who.city_village_country	born in: born	prefix
+2	bunk beds	theme_what	living conditions	subtag
+2	Camp Amersfoort	place_where.transit_destinations	camp amersfoort	pattern
+2	camp-related cultural activities	place_where.transit_destinations	camp related cultural activities	pattern
+2	camp-related psychological reactions	place_where.transit_destinations	camp related psychological reactions	pattern
+2	Centered around an Artifact	theme_how.type_of_stores	centered around an artifact	exact
+2	deaths	theme_what	deaths and mortality	subtag
+2	Deaths and Mortality	theme_what	deaths and mortality	exact
+2	deported to: Amsterdam	place_where.transit_destinations	deported to: amsterdam	prefix
+2	deported to: Bergen-Belsen	place_where.transit_destinations	deported to: bergen belsen	prefix
+2	deported to: Monowitz	place_where.transit_destinations	deported to: monowitz	prefix
+2	executions	theme_what	brutality and killings	subtag
+2	football	theme_what	cultural and creative activities	subtag
+2	foster family	theme_what	family	subtag
+2	from: Prussia	person_who.city_village_country	from: prussia	prefix
+2	from: Russia	person_who.city_village_country	from: russia	prefix
+2	from: United Kindom	person_who.city_village_country	from: united kingdom	prefix
+2	giving birth	theme_what	family	subtag
+2	Hanukkah	theme_what	jewish life	subtag
+2	happiness	theme_what	thoughts and feelings	subtag
+2	helping	theme_what	social relations	subtag
+2	hunger	theme_what	food and hunger	subtag
+2	informational (tone)	language_how.tone	informational (tone)	pattern
+2	Kristallnacht	theme_what	brutality and killings	subtag
+2	lived in: Amersfoort	person_who.city_village_country	lived in: amersfoort	prefix
+2	lived in: Arnhem	person_who.city_village_country	lived in: arnhem	prefix
+2	lived in: Assen	person_who.city_village_country	lived in: assen	prefix
+2	lived in: Barneveld	person_who.city_village_country	lived in: barneveld	prefix
+2	lived in: Den Haag	person_who.city_village_country	lived in: den haag	prefix
+2	lived in: Deventer	person_who.city_village_country	lived in: deventer	prefix
+2	lived in: Eindhoven	person_who.city_village_country	lived in: eindhoven	prefix
+2	lived in: Ermelo	person_who.city_village_country	lived in: ermelo	prefix
+2	lived in: Hoorn	person_who.city_village_country	lived in: hoorn	prefix
+2	Lived in: Leeuwarden	person_who.city_village_country	lived in: leeuwarden	prefix
+2	lived in: Maastricht	person_who.city_village_country	lived in: maastricht	prefix
+2	lived in: Urk	person_who.city_village_country	lived in: urk	prefix
+2	lived in: Vught	person_who.city_village_country	lived in: vught	prefix
+2	lived in: Zeist	person_who.city_village_country	lived in: zeist	prefix
+2	living barracks	place_where.camp_areas	living barracks	exact
+2	maternity ward	theme_what	health and diseases	subtag
+2	migration experiences	theme_what	flight and migration	subtag
+2	migration policies	theme_what	flight and migration	subtag
+2	migration preparations	theme_what	flight and migration	subtag
+2	Palestine certificates	theme_what	aid and protection	subtag
+2	Palestine training program	theme_what	flight and migration	subtag
+2	political persecutee	person_who.reason_for_imprisonment	political persecutee	exact
+2	prisoners	person_who.reason_for_imprisonment	prisoner	exact
+2	protection papers	theme_what	aid and protection	subtag
+2	psychological reactions	theme_what	thoughts and feelings	subtag
+2	roll-call	theme_what	daily life	subtag
+2	self-administration	theme_what	camp procedures	subtag
+2	suicides	theme_what	deaths and mortality	subtag
+2	theater	theme_what	cultural and creative activities	subtag
+2	theatre	theme_what	cultural and creative activities	subtag
+2	transfer conditions	theme_what	deportation and transport	subtag
+2	Transitcamp	time_when.time_period	transit camp	exact
+2	Zionism	theme_what	political activities	subtag
+1	abuse	theme_what	brutality and killings	subtag
+1	anger	theme_what	thoughts and feelings	subtag
+1	barbed wire fence	theme_what	guarding	subtag
+1	barrack 29	place_where.camp_areas	barrack 29	pattern
+1	barrack 30	place_where.camp_areas	barrack 30	pattern
+1	barrack 65	place_where.camp_areas	barrack 65	pattern
+1	barrack 66	place_where.camp_areas	barrack 66	pattern
+1	boiler room	place_where.camp_areas	boiler room	exact
+1	born in:  Borger	person_who.city_village_country	born in: borger	prefix
+1	born in:  Onstwedde	person_who.city_village_country	born in: onstwedde	prefix
+1	born in: Cologne	person_who.city_village_country	born in: cologne	prefix
+1	born in: Deventer	person_who.city_village_country	born in: deventer	prefix
+1	born in: Duisburg	person_who.city_village_country	born in: duisburg	prefix
+1	born in: Frankfurt am Main	person_who.city_village_country	born in: frankfurt am main	prefix
+1	born in: Gonnesweiler	person_who.city_village_country	born in: gonnesweiler	prefix
+1	born in: Haren	person_who.city_village_country	born in: haren	prefix
+1	born in: Heerlen	person_who.city_village_country	born in: heerlen	prefix
+1	born in: Hoogezand	person_who.city_village_country	born in: hoogezand	prefix
+1	born in: Leeuwarden	person_who.city_village_country	born in: leeuwarden	prefix
+1	born in: London	person_who.city_village_country	born in: london	prefix
+1	born in: Middelburg	person_who.city_village_country	born in: middelburg	prefix
+1	born in: Mocker Thorn	person_who.city_village_country	born in: mocker thorn	prefix
+1	born in: Recklinghausen	person_who.city_village_country	born in: recklinghausen	prefix
+1	born in: Rhenen	person_who.city_village_country	born in: rhenen	prefix
+1	born in: Usquert	person_who.city_village_country	born in: usquert	prefix
+1	born in: Vienna	person_who.city_village_country	born in: vienna	prefix
+1	cabaret	theme_what	cultural and creative activities	subtag
+1	Camp Balderhaar	place_where.transit_destinations	camp balderhaar	pattern
+1	Camp Barneveld	place_where.transit_destinations	camp barneveld	pattern
+1	Camp Conrad	place_where.transit_destinations	camp conrad	pattern
+1	Camp De Beetse	place_where.transit_destinations	camp de beetse	pattern
+1	Camp De Witte Peal	place_where.transit_destinations	camp de witte peal	pattern
+1	camp entrance	place_where.camp_areas	camp entrance	exact
+1	Camp It Petgat	place_where.transit_destinations	camp it petgat	pattern
+1	Camp Kreembong	place_where.transit_destinations	camp kreembong	pattern
+1	Camp Linde	place_where.transit_destinations	camp linde	pattern
+1	Camp Orvelte	place_where.transit_destinations	camp orvelte	pattern
+1	Camp Praust	place_where.transit_destinations	camp praust	pattern
+1	Camp Sint-Michielsgestel	place_where.transit_destinations	camp sint michielsgestel	pattern
+1	Catholicism	theme_what	religion	subtag
+1	Communism	theme_what	political activities	subtag
+1	deported to: Austria	place_where.transit_destinations	deported to: austria	prefix
+1	deported to: Buchenwald	place_where.transit_destinations	deported to: buchenwald	prefix
+1	deported to: France	place_where.transit_destinations	deported to: france	prefix
+1	deported to: Germany	place_where.transit_destinations	deported to: germany	prefix
+1	deported to: Meppel	place_where.transit_destinations	deported to: meppel	prefix
+1	deported to: Neuengamme	place_where.transit_destinations	deported to: neuengamme	prefix
+1	deported to: Schöppinitz	place_where.transit_destinations	deported to: schoppinitz	prefix
+1	DP Camps	theme_what	dp camps	exact
+1	English	person_who.mothertongue	english	exact
+1	environmental conditions	theme_what	living conditions	subtag
+1	from: Chile	person_who.city_village_country	from: chile	prefix
+1	from: Czech Republic	person_who.city_village_country	from: czech republic	prefix
+1	from: Great Britain	person_who.city_village_country	from: great britain	prefix
+1	from: Hungary	person_who.city_village_country	from: hungary	prefix
+1	from: Peru	person_who.city_village_country	from: peru	prefix
+1	from: Romania	person_who.city_village_country	from: romania	prefix
+1	from: Turkey	person_who.city_village_country	from: turkey	prefix
+1	from: Ukraine	person_who.city_village_country	from: ukraine	prefix
+1	from: United States	person_who.city_village_country	from: united states	prefix
+1	garden	place_where.camp_areas	garden	exact
+1	gymnastics	theme_what	cultural and creative activities	subtag
+1	health	theme_what	health and diseases	subtag
+1	Hebrew	theme_what	jewish life	subtag
+1	humanizing (tone)	language_how.tone	humanizing (tone)	pattern
+1	Jewish holidays	theme_what	jewish life	subtag
+1	kibbutz	theme_what	flight and migration	subtag
+1	Kindertransport	theme_what	flight and migration	subtag
+1	laboratory	place_where.camp_areas	laboratory	exact
+1	live in: Wijfe	person_who.city_village_country	live in: wijfe	prefix
+1	Lived in: Aduard	person_who.city_village_country	lived in: aduard	prefix
+1	lived in: Almelo	person_who.city_village_country	lived in: almelo	prefix
+1	lived in: Almere	person_who.city_village_country	lived in: almere	prefix
+1	lived in: Apeldoorn	person_who.city_village_country	lived in: apeldoorn	prefix
+1	lived in: Austria	person_who.city_village_country	lived in: austria	prefix
+1	lived in: Balkburg	person_who.city_village_country	lived in: balkburg	prefix
+1	lived in: Bergen op Zoom	person_who.city_village_country	lived in: bergen op zoom	prefix
+1	Lived in: Boornbergum	person_who.city_village_country	lived in: boornbergum	prefix
+1	lived in: De Bilt	person_who.city_village_country	lived in: de bilt	prefix
+1	lived in: Drachten	person_who.city_village_country	lived in: drachten	prefix
+1	lived in: Düsseldorf	person_who.city_village_country	lived in: dusseldorf	prefix
+1	lived in: Echt	person_who.city_village_country	lived in: echt	prefix
+1	lived in: Ellecom	person_who.city_village_country	lived in: ellecom	prefix
+1	lived in: Emmen	person_who.city_village_country	lived in: emmen	prefix
+1	lived in: Enschede	person_who.city_village_country	lived in: enschede	prefix
+1	lived in: France	person_who.city_village_country	lived in: france	prefix
+1	lived in: Franeker	person_who.city_village_country	lived in: franeker	prefix
+1	lived in: Frankfurt am Main	person_who.city_village_country	lived in: frankfurt am main	prefix
+1	Lived in: Friesland	person_who.city_village_country	lived in: friesland	prefix
+1	lived in: Giekerk	person_who.city_village_country	lived in: giekerk	prefix
+1	lived in: Gorinchem	person_who.city_village_country	lived in: gorinchem	prefix
+1	lived in: Groningen	person_who.city_village_country	lived in: groningen	prefix
+1	lived in: Hardenberg	person_who.city_village_country	lived in: hardenberg	prefix
+1	lived in: Heer	person_who.city_village_country	lived in: heer	prefix
+1	lived in: Hooghaalen	person_who.city_village_country	lived in: hooghaalen	prefix
+1	lived in: Ijsselstein	person_who.city_village_country	lived in: ijsselstein	prefix
+1	lived in: Israel	person_who.city_village_country	lived in: israel	prefix
+1	lived in: Kloosterhaar	person_who.city_village_country	lived in: kloosterhaar	prefix
+1	lived in: Limburg	person_who.city_village_country	lived in: limburg	prefix
+1	lived in: Meppel	person_who.city_village_country	lived in: meppel	prefix
+1	lived in: Middelburg	person_who.city_village_country	lived in: middelburg	prefix
+1	lived in: Mijdrecht	person_who.city_village_country	lived in: mijdrecht	prefix
+1	lived in: Mook	person_who.city_village_country	lived in: mook	prefix
+1	lived in: Nieuwlande	person_who.city_village_country	lived in: nieuwlande	prefix
+1	lived in: Nijmegen	person_who.city_village_country	lived in: nijmegen	prefix
+1	lived in: Schalkhaar	person_who.city_village_country	lived in: schalkhaar	prefix
+1	lived in: Scheveningen	person_who.city_village_country	lived in: scheveningen	prefix
+1	lived in: Sint Annaland	person_who.city_village_country	lived in: sint annaland	prefix
+1	lived in: Sluis	person_who.city_village_country	lived in: sluis	prefix
+1	lived in: Stutthof	person_who.city_village_country	lived in: stutthof	prefix
+1	lived in: Tillburg	person_who.city_village_country	lived in: tillburg	prefix
+1	lived in: United States	person_who.city_village_country	lived in: united states	prefix
+1	lived in: Velden	person_who.city_village_country	lived in: velden	prefix
+1	lived in: Veluwe	person_who.city_village_country	lived in: veluwe	prefix
+1	lived in: Vienna	person_who.city_village_country	lived in: vienna	prefix
+1	lived in: Vlissingen	person_who.city_village_country	lived in: vlissingen	prefix
+1	lived in: Wageningen	person_who.city_village_country	lived in: wageningen	prefix
+1	lived in: Weststellingwerf	person_who.city_village_country	lived in: weststellingwerf	prefix
+1	lived in: Wirdum	person_who.city_village_country	lived in: wirdum	prefix
+1	lived in: Zellhem	person_who.city_village_country	lived in: zellhem	prefix
+1	lived in: Zuidlaren	person_who.city_village_country	lived in: zuidlaren	prefix
+1	lived in: Zutphen	person_who.city_village_country	lived in: zutphen	prefix
+1	lived in: Zwijndrecht	person_who.city_village_country	lived in: zwijndrecht	prefix
+1	mass executions	theme_what	brutality and killings	subtag
+1	mental health	theme_what	thoughts and feelings	subtag
+1	migration assistance	theme_what	aid and protection	subtag
+1	Moluccan	person_who.reason_for_imprisonment	moluccan	exact
+1	narrow-gauge train	place_where.camp_areas	narrow gauge train	exact
+1	nurse	theme_what	health and diseases	subtag
+1	original works	theme_what	cultural and creative activities	subtag
+1	patients	person_who.reason_for_imprisonment	patients	exact
+1	performing arts	theme_what	cultural and creative activities	subtag
+1	photography	medium_what	photograph	exact
+1	physical health	theme_what	health and diseases	subtag
+1	political prisoner	person_who.reason_for_imprisonment	political prisoner	exact
+1	POWs	person_who.reason_for_imprisonment	pows	exact
+1	propaganda	theme_what	awareness and reflection	subtag
+1	Railway line	place_where.camp_areas	railway line	exact
+1	reflective (tone)	language_how.tone	reflective (tone)	pattern
+1	socially persecuted people	person_who.reason_for_imprisonment	socially persecuted people	exact
+1	suffering	theme_what	thoughts and feelings	subtag
+1	textile forced labour	theme_what	forced labor	subtag
+1	theatre and registration	place_where.camp_areas	theater and registration	exact
+1	train tracks	place_where.camp_areas	train tracks	exact
+1	tranport	theme_what	deportation and transport	subtag
+1	transfers	theme_what	deportation and transport	subtag
+1	typhus	theme_what	health and diseases	subtag
+1	uprising	theme_what	adaptation and survival	subtag
+1	warehouse	place_where.camp_areas	warehouse	exact
+1	work detail	theme_what	forced labor	subtag
+1	workshops	theme_what	forced labor	subtag

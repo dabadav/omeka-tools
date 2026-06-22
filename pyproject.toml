@@ -8,6 +8,9 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    # shared tag taxonomy / match normalization (single source of truth).
+    # local dev: `pip install -e ../memorise-taxonomy`
+    "memorise-taxonomy",
 ]
 
 
